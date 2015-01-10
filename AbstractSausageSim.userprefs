@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/GameState.cs">
+    <Files>
+      <File FileName="AbstractSausageSim/Program.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/GameState.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../TreeTraverse/TreeTraverse/Abstract/GameGraph.cs" line="99" offsetX="258" offsetY="1372" expression="v" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
