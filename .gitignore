@@ -9,10 +9,9 @@
 
 *.exe
 
+AbstractSausageSim/bin
+AbstractSausageSim/bin/
+AbstractSausageSim/bin/*.*
 AbstractSausageSim/bin/*
-
-*.mdb
-
-*.exe
 
 *.mdb
