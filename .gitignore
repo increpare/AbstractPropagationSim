@@ -12,3 +12,7 @@
 AbstractSausageSim/bin/*
 
 *.mdb
+
+*.exe
+
+*.mdb
