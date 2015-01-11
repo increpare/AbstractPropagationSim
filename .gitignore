@@ -15,3 +15,11 @@ AbstractSausageSim/bin/*.*
 AbstractSausageSim/bin/*
 
 *.mdb
+
+AbstractSausageSim/bin/Debug/AbstractSausageSim.exe
+
+AbstractSausageSim/bin/Debug/AbstractSausageSim.exe.mdb
+
+AbstractSausageSim/obj/x86/Debug/AbstractSausageSim.exe
+
+AbstractSausageSim/obj/x86/Debug/AbstractSausageSim.exe.mdb
