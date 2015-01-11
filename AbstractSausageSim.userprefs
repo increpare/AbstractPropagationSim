@@ -1,9 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/GameState.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/Game/Structures/Movement.cs">
     <Files>
-      <File FileName="AbstractSausageSim/Program.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/GameState.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Structures/GameState.cs" Line="17" Column="17" />
+      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="4" Column="4" />
+      <File FileName="AbstractSausageSim/Game/Structures/Entity.cs" Line="2" Column="2" />
+      <File FileName="AbstractSausageSim/Program.cs" Line="33" Column="33" />
+      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="26" Column="26" />
+      <File FileName="AbstractSausageSim/Game/Structures/EntityType.cs" Line="7" Column="7" />
+      <File FileName="AbstractSausageSim/Game/Structures/Movement.cs" Line="21" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -11,5 +16,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../TreeTraverse/TreeTraverse/Abstract/GameGraph.cs" line="99" offsetX="258" offsetY="1372" expression="v" liveUpdate="False" />
+    <Watch file="AbstractSausageSim/Game/Processes/Scenario.cs" line="7" offsetX="416" offsetY="90" expression="g.gamestate" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

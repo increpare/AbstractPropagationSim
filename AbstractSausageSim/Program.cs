@@ -4,6 +4,6 @@ class MainClass
 {
 	public static void Main (string[] args)
 	{
-		Console.WriteLine ("Hello World!");
+		Scenario.Run (Levels.Level1,"");
 	}
 }
