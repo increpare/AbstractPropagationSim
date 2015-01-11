@@ -8,3 +8,7 @@
 *.mdb
 
 *.exe
+
+AbstractSausageSim/bin/*
+
+*.mdb
