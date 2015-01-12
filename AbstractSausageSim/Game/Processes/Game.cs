@@ -21,6 +21,9 @@ public class Game
 	public void ProcessInput(InputDirection inputDir){
 		var player = gamestate.Player ();
 
+		Graph g = GraphAlgorithms.GenerateGraph(gamestate,Direction.East);
+		Console.WriteLine (g.ToString ()+"\n"+"\n");
+
 		Movement m = InputToMovementType (player, inputDir);
 
 		gamestate.movements.Add (m);

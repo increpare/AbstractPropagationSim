@@ -49,11 +49,16 @@
     <Compile Include="Game\Processes\Scenario.cs" />
     <Compile Include="Game\Structures\Graph\Graph.cs" />
     <Compile Include="Game\Processes\GraphAlgorithms.cs" />
+    <Compile Include="Game\Structures\Graph\Vertex.cs" />
+    <Compile Include="Game\Structures\Graph\Edge.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Game\" />
     <Folder Include="Game\Processes\" />
     <Folder Include="Game\Structures\Graph\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestGraph.dot" />
   </ItemGroup>
 </Project>

@@ -3,9 +3,9 @@
 public static class Levels
 {
 	public static string Level1 = @"
-...11
-.PEO1
-###11
+....11
+.PEOO1
+####11
 ";
 }
 

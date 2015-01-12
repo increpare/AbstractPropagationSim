@@ -29,6 +29,15 @@ public class GameState
 		movements = new List<Movement> ();
 	}
 
+	public string EntName(Entity e){
+		var filtered = entities.Where (ent => ent.type == e.type).ToList();
+		if (filtered.Count()>1){
+			return e.type.ToString().Substring(0,6)+filtered.IndexOf (e);
+		} else {
+			return e.type.ToString();
+		}
+	}
+
 	public GameState(GameState other){
 		Dictionary<Entity,Entity> entityDict = new Dictionary<Entity, Entity> (entities.Count);
 
@@ -99,7 +108,7 @@ public class GameState
 				for (var j = 0; j < h; j++) {
 					var c = lines [j] [i];
 					if (c == n_c) {
-						var coord = new Coord (i, j, 0);
+						var coord = new Coord (i, h-j, 0);
 						coords.Add (coord);
 					}
 				}
@@ -128,19 +137,19 @@ public class GameState
 				switch (c) {
 				case 'O':
 					{
-						var e = new Entity (EntityType.Sausage, Direction.North, new Coord (i, j, 0), null, true, false, null, false);
+						var e = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, 0), null, true, false, null, false);
 						result.entities.Add (e);
 						break;
 					}
 				case '#':
 					{
-						var e = new Entity (EntityType.Ground, Direction.None, new Coord (i, j, 0), null, false, false, null, false);
+						var e = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j, 0), null, false, false, null, false);
 						result.entities.Add (e);
 						break;
 					}
 				case 'P':
 					{
-						var e = new Entity (EntityType.Player, Direction.East, new Coord (i, j, 0), null, true, false, null, false);
+						var e = new Entity (EntityType.Player, Direction.East, new Coord (i, h-j, 0), null, true, false, null, false);
 						result.entities.Add (e);
 						break;
 					}
@@ -154,11 +163,35 @@ public class GameState
 	public override string ToString ()
 	{
 		string result = "";
-		var ents = entities.OrderBy (e=>e.movement);
+		var ents = entities.OrderBy (e=>EntName(e));
 		foreach (var e in ents) {
-			result = result + e.ToString () + "\n";
+			var eName = EntName (e);
+			result = result + e.ToString (eName) + "\n";
 		}
 		result.Trim ('\n');
+		return result;
+	}
+
+	public List<Entity> EntsInDir(Entity e, Direction dir){
+		List<Entity> result = new List<Entity> ();
+		var border = e.GetBorder (dir);
+		foreach (var c in border) {
+			var ents = EntsAt (c);
+			foreach (var ent in ents) {
+				result.AddUnique (ent);
+			}
+		}
+		return result;
+	}
+
+	public List<Coord> GetBorder(Coord offset, Direction dir){
+		var result = new List<Coord> (entities.Count());
+		//here, assume everything's not extended
+		foreach (var e in entities) {
+			if (EntsAt (e.pos).Count () == 0) {
+				result.Add (e.pos + offset);
+			}
+		}
 		return result;
 	}
 }

@@ -2,20 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class Vertex {
-	public Entity target;
-}
-
-public class Edge {
-	public Vertex from;
-	public Vertex to;
-	public bool passive;
-}
-
 public class Graph
 {
 	public List<Vertex> vertices;
 	public List<Edge> edges;
+
+	public Vertex AddVertex(Entity e,string name) {
+		var v = new Vertex (e,name);
+		vertices.AddUnique (v);
+		return v;
+	}
+
+	public Edge AddEdge(Entity a, string nameA, Entity b, string nameB, bool passive){
+		var va = AddVertex (a,nameA);
+		var vb = AddVertex (b,nameB);
+		var e = new Edge (va,vb,passive);
+		edges.AddUnique (e);
+		return e;
+	}
+
+	public Vertex GetVertex(Entity e){
+		return vertices.FirstOrDefault(v=>v.target==e);
+	}
 
 	public Edge[] outgoing(Vertex v)
 	{
@@ -35,6 +43,22 @@ public class Graph
 	}
 
 	public Graph(){
+		vertices = new List<Vertex> ();
+		edges = new List<Edge> ();
+	}
+
+	public override string ToString ()
+	{
+		string result = "digraph G {\n";
+		foreach (var e in edges) {
+			if (e.passive) {
+				result = result + "\t" + e.from.name + " -> " + e.to.name + " [style=dotted];\n";
+			} else {
+				result = result + "\t" + e.from.name + " -> " + e.to.name + ";\n";
+			}
+		}
+		result = result + "}";
+		return result;
 	}
 
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Entity
 {
@@ -20,6 +22,14 @@ public class Entity
 	public Entity ()
 	{
 	}		
+
+	public bool CanPush(){
+		if ((type == EntityType.Ground || type == EntityType.BBQ || type == EntityType.Ladder || movement != null)) {
+			return false;
+		} else {
+			return true;
+		}
+	}
 
 	public Entity(Entity other){
 		type = other.type;
@@ -61,6 +71,15 @@ public class Entity
 		return this.pos == c;
 	}
 
+	public string ToString(string name){
+		string result = name + "\t" + pos.ToString () + "\t";
+		if (movement != null) {
+			result = result + movement.ToString ();
+		}
+
+		return result;
+	}
+
 	public override string ToString() {
 		string result = type.ToString () + "\t" + pos.ToString () + "\t";
 		if (movement != null) {
@@ -68,6 +87,22 @@ public class Entity
 		}
 
 		return result;
+	}
+
+	public List<Coord> GetBorder(Direction dir){
+		if (!extended) {
+			return new List<Coord>{pos+dir};
+		} else if (type == EntityType.Island) {
+			return islandDat.GetBorder(pos, dir);
+		} else {
+			if (this.dir == dir) {
+				return new List<Coord>{this.pos+dir+dir};
+			} else if (this.dir == dir.Inverse ()) {
+				return new List<Coord>{this.pos+dir};
+			} else {
+				return new List<Coord>{this.pos+dir,this.pos+this.dir+dir};
+			}
+		}
 	}
 }
 
