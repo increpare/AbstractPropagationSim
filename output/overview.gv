@@ -1,0 +1,10 @@
+digraph G {
+node [shape=record];
+	"Ground" -> "Player" [style=dotted];
+	"Player" -> "Sausage0";
+	"Ground" -> "Sausage0" [style=dotted];
+	"Sausage0" -> "Sausage1";
+	"Island" -> "Sausage1" [style=dotted];
+	"Sausage1" -> "Island" [style=dotted];
+	"Sausage1" -> "Island";
+}

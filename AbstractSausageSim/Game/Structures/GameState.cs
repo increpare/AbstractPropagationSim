@@ -30,11 +30,16 @@ public class GameState
 	}
 
 	public string EntName(Entity e){
+		string baseName = e.type.ToString ();
+		if (e.type == EntityType.Ground) {
+			return baseName;
+		}
 		var filtered = entities.Where (ent => ent.type == e.type).ToList();
 		if (filtered.Count()>1){
-			return e.type.ToString().Substring(0,6)+filtered.IndexOf (e);
+			//return e.type.ToString().Substring(0,6)+filtered.IndexOf (e);
+			return baseName+filtered.IndexOf (e);
 		} else {
-			return e.type.ToString();
+			return baseName;
 		}
 	}
 
@@ -188,8 +193,8 @@ public class GameState
 		var result = new List<Coord> (entities.Count());
 		//here, assume everything's not extended
 		foreach (var e in entities) {
-			if (EntsAt (e.pos).Count () == 0) {
-				result.Add (e.pos + offset);
+			if (EntsAt (e.pos+dir).Count () == 0) {
+				result.Add (e.pos +dir+ offset);
 			}
 		}
 		return result;

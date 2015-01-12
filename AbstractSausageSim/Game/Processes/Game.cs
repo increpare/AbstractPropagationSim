@@ -18,15 +18,31 @@ public class Game
 
 	}
 
+	private string OutputDir { get { return System.IO.Directory.GetCurrentDirectory () + "/../../../output/"; } }
+	private string GraphFilePath(string name){
+		return OutputDir + name+".gv";
+	}
+	private string PDFPath(string name){
+		return OutputDir + name+".pdf";
+	}
+
+	private void Render(string graphDat, string fileName){
+		Console.WriteLine (graphDat + "\n" + "\n");
+		string path = GraphFilePath (fileName);
+		System.IO.File.WriteAllText (path, graphDat);
+		System.Diagnostics.Process.Start ("/opt/local/bin/dot", "-Tpdf " + GraphFilePath (fileName) + " -o " + PDFPath (fileName));
+	}
+
 	public void ProcessInput(InputDirection inputDir){
-		var player = gamestate.Player ();
 
 		Graph g = GraphAlgorithms.GenerateGraph(gamestate,Direction.East);
-		Console.WriteLine (g.ToString ()+"\n"+"\n");
 
-		Movement m = InputToMovementType (player, inputDir);
+		Render (g.ToString (), "graph_0");
+	
+		var traversal = new GraphTraversal (g);
+		traversal.Run ();
+		Render (traversal.ToString (), "graph_1");
 
-		gamestate.movements.Add (m);
 	}
 
 	public Movement InputToMovementType(Entity player, InputDirection inputDir){

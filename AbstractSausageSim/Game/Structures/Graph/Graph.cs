@@ -50,11 +50,12 @@ public class Graph
 	public override string ToString ()
 	{
 		string result = "digraph G {\n";
+		//result = result+"Ground [style=invis label=\"\" width=\"0\" height=\"0\"]\n";
 		foreach (var e in edges) {
 			if (e.passive) {
-				result = result + "\t" + e.from.name + " -> " + e.to.name + " [style=dotted];\n";
+				result = result + "\t\"" + e.from.name + "\" -> \"" + e.to.name + "\" [style=dotted];\n";
 			} else {
-				result = result + "\t" + e.from.name + " -> " + e.to.name + ";\n";
+				result = result + "\t\"" + e.from.name + "\" -> \"" + e.to.name + "\";\n";
 			}
 		}
 		result = result + "}";
