@@ -146,6 +146,18 @@ public class GameState
 						result.entities.Add (e);
 						break;
 					}
+				case '@':
+					{
+						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e1);
+						var e2 = new Entity (EntityType.Player, Direction.East, new Coord (i-2, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e2);
+						var e3 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e3);
+						var e4 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e4);
+						break;
+					}
 				case '#':
 					{
 						var e = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j, 0), null, false, false, null, false);

@@ -6,6 +6,13 @@ public struct Edge    {
 	public readonly Vertex from;
 	public readonly Vertex to;
 	public readonly bool passive;
+
+	public bool active {
+		get {
+			return !passive;
+		}
+	}
+
 	public Edge(Vertex from, Vertex to, bool passive) {
 		this.from = from;
 		this.to = to;

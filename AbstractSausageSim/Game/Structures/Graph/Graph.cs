@@ -25,6 +25,11 @@ public class Graph
 		return vertices.FirstOrDefault(v=>v.target==e);
 	}
 
+
+	public Vertex GetVertex(string s){
+		return vertices.FirstOrDefault(v=>v.name==s);
+	}
+
 	public Edge[] outgoing(Vertex v)
 	{
 		return edges.Where (e => e.from == v).ToArray ();
@@ -50,6 +55,7 @@ public class Graph
 	public override string ToString ()
 	{
 		string result = "digraph G {\n";
+		//result += "graph [ rankdir=LR ];\n";
 		//result = result+"Ground [style=invis label=\"\" width=\"0\" height=\"0\"]\n";
 		foreach (var e in edges) {
 			if (e.passive) {

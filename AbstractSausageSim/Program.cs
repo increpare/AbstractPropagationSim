@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 class MainClass
 {
 	public static void Main (string[] args)
 	{
-		Scenario.Run (Levels.Level1,"");
+		foreach (var levelDat in Levels.levels) {
+			Renderer.index = Levels.levels.ToList ().IndexOf (levelDat);
+			Scenario.Run (levelDat, "");
+		}
 	}
 }

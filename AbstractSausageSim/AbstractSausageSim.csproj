@@ -52,6 +52,7 @@
     <Compile Include="Game\Structures\Graph\Vertex.cs" />
     <Compile Include="Game\Structures\Graph\Edge.cs" />
     <Compile Include="Game\Processes\GraphTraversal.cs" />
+    <Compile Include="Game\Misc\Renderer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
