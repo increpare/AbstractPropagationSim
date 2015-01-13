@@ -4,8 +4,8 @@ public static class Levels
 {
 	public static string[] levels = {
 		@"
-...11
-.PEO.
+.....
+.PEOO
 #####
 ",
 		@"

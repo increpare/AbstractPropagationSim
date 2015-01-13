@@ -1,24 +1,19 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/Game/Structures/GameState.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" Line="14" Column="14" />
-      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="5" Column="5" />
-      <File FileName="AbstractSausageSim/Game/Structures/GameState.cs" Line="28" Column="28" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/Graph.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/TestGraph.dot" Line="12" Column="12" />
-      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="45" Column="45" />
-      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="51" Column="51" />
-      <File FileName="AbstractSausageSim/Game/Misc/Utilities.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/EntityType.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/Entity.cs" Line="23" Column="23" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/Edge.cs" Line="35" Column="35" />
-      <File FileName="AbstractSausageSim/Game/Structures/Movement.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="5" Column="5" />
+      <File FileName="AbstractSausageSim/Game/Misc/Renderer.cs" Line="56" Column="56" />
+      <File FileName="AbstractSausageSim/Game/Structures/Graph/Graph.cs" Line="5" Column="5" />
+      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="15" Column="15" />
+      <File FileName="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" Line="19" Column="19" />
+      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="31" Column="31" />
+      <File FileName="AbstractSausageSim/Program.cs" Line="41" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/stephenlavelle/Documents/AbstractSausageSim/AbstractSausageSim/Game/Structures/Graph/Edge.cs" line="23" column="46" />
+      <Breakpoint file="/Users/stephenlavelle/Documents/AbstractSausageSim/AbstractSausageSim/Game/Structures/Graph/Edge.cs" line="30" column="46" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

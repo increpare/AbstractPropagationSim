@@ -5,6 +5,7 @@ using System.Linq;
 public struct Vertex    {
 	public readonly Entity target;
 	public readonly string name;
+
 	public Vertex(Entity target, string name){
 		this.target = target;
 		this.name = name;
