@@ -1,0 +1,16 @@
+digraph G {
+rankdir = BT;
+Node [ fontname="Arial Unicode Multicast"];
+Player		[ label="1" shape=square peripheries=2];
+Ground		[ label="0" shape=square peripheries=2];
+Sausage0		[ label="" shape=circle];
+Sausage1		[ label="" shape=circle];
+Island		[ label="" shape=square];
+{rank=same; Player,Sausage0};
+	"Ground" -> "Player" [style=dotted color="gray"];
+	"Player" -> "Sausage0" [constraint=false  penwidth=2];
+	"Ground" -> "Sausage0" [style=dotted color="gray"];
+	"Sausage1" -> "Sausage0" [style=dotted color="gray"];
+	"Sausage0" -> "Island" [style=dotted  penwidth=2];
+	"Island" -> "Sausage1" [style=dotted  penwidth=2];
+}

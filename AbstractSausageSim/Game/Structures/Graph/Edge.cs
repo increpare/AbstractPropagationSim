@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public struct Edge    {
+public struct Edge :IEquatable<Edge>   {
 	public readonly Vertex from;
 	public readonly Vertex to;
 	public readonly bool passive;

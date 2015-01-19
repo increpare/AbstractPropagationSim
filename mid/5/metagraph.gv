@@ -1,0 +1,1315 @@
+digraph G {
+rankdir = BT;
+subgraph cluster_Player1X1XGround0X1XSausage0X1XIsland0X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage0X1XIsland0X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage0X1XIsland0X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage[ label ="0"  shape=circle ];
+Player1X1XGround0X1XSausage0X1XIsland0X1X_Island[ label ="0"  shape=square ];
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Ground" -> "Player1X1XGround0X1XSausage0X1XIsland0X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Player" -> "Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage";
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Ground" -> "Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage" -> "Player1X1XGround0X1XSausage0X1XIsland0X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Island" -> "Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage1X2XIsland0X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage1X2XIsland0X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland0X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage[ label ="1&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage1X2XIsland0X1X_Island[ label ="0"  shape=square ];
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Ground" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Player" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage";
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Ground" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Island" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage1X2XIsland2X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage1X2XIsland2X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland2X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage[ label ="1&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage1X2XIsland2X1X_Island[ label ="2"  shape=square ];
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Player" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage";
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Island" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage2X2XIsland2X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage2X2XIsland2X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage2X2XIsland2X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage[ label ="2&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage2X2XIsland2X1X_Island[ label ="2"  shape=square ];
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Player" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage";
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Island" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage2X2XIsland3X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage2X2XIsland3X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage2X2XIsland3X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage[ label ="2&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage2X2XIsland3X1X_Island[ label ="3"  shape=square ];
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Ground" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Player" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage";
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Ground" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Island" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage3X2XIsland3X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage3X2XIsland3X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage3X2XIsland3X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage[ label ="3&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage3X2XIsland3X1X_Island[ label ="3"  shape=square ];
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Ground" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Player" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage";
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Ground" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Island" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage3X2XIsland4X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage3X2XIsland4X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage3X2XIsland4X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage[ label ="3&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage3X2XIsland4X1X_Island[ label ="4"  shape=square ];
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Ground" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Player" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage";
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Ground" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Island" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage4X2XIsland4X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage4X2XIsland4X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage4X2XIsland4X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage[ label ="4&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage4X2XIsland4X1X_Island[ label ="4"  shape=square ];
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Ground" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Player" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage";
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Ground" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Island" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage4X2XIsland5X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage4X2XIsland5X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage4X2XIsland5X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage[ label ="4&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage4X2XIsland5X1X_Island[ label ="5"  shape=square ];
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Ground" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Player" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage";
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Ground" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Island" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage5X2XIsland5X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage5X2XIsland5X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage5X2XIsland5X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage[ label ="5&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage5X2XIsland5X1X_Island[ label ="5"  shape=square ];
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Ground" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Player" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage";
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Ground" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Island" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage5X2XIsland6X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage5X2XIsland6X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage5X2XIsland6X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage[ label ="5&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage5X2XIsland6X1X_Island[ label ="6"  shape=square ];
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Ground" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Player" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage";
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Ground" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Island" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage6X2XIsland6X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage6X2XIsland6X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage6X2XIsland6X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage[ label ="6&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage6X2XIsland6X1X_Island[ label ="6"  shape=square ];
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Ground" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Player" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage";
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Ground" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Island" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage6X2XIsland7X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage6X2XIsland7X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage6X2XIsland7X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage[ label ="6&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage6X2XIsland7X1X_Island[ label ="7"  shape=square ];
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Ground" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Player" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage";
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Ground" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Island" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage7X2XIsland7X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage7X2XIsland7X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage7X2XIsland7X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage[ label ="7&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage7X2XIsland7X1X_Island[ label ="7"  shape=square ];
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Ground" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Player" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage";
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Ground" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Island" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage7X2XIsland8X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage7X2XIsland8X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage7X2XIsland8X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage[ label ="7&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage7X2XIsland8X1X_Island[ label ="8"  shape=square ];
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Ground" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Player" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage";
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Ground" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Island" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage8X2XIsland8X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage8X2XIsland8X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage8X2XIsland8X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage[ label ="8&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage8X2XIsland8X1X_Island[ label ="8"  shape=square ];
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Ground" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Player" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage";
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Ground" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Island" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage8X2XIsland9X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage8X2XIsland9X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage8X2XIsland9X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage[ label ="8&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage8X2XIsland9X1X_Island[ label ="9"  shape=square ];
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Ground" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Player" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage";
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Ground" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Island" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage9X2XIsland9X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage9X2XIsland9X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage9X2XIsland9X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage[ label ="9&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage9X2XIsland9X1X_Island[ label ="9"  shape=square ];
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Ground" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Player" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage";
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Ground" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Island" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage9X2XIsland10X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage9X2XIsland10X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage9X2XIsland10X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage[ label ="9&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage9X2XIsland10X1X_Island[ label ="10"  shape=square ];
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Ground" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Player" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage";
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Ground" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Island" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage10X2XIsland10X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage10X2XIsland10X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage10X2XIsland10X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage[ label ="10&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage10X2XIsland10X1X_Island[ label ="10"  shape=square ];
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Ground" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Player" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage";
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Ground" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Island" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage10X2XIsland11X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage10X2XIsland11X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage10X2XIsland11X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage[ label ="10&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage10X2XIsland11X1X_Island[ label ="11"  shape=square ];
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Ground" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Player" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage";
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Ground" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Island" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage11X2XIsland11X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage11X2XIsland11X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XIsland11X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage[ label ="11&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage11X2XIsland11X1X_Island[ label ="11"  shape=square ];
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Ground" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Player" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage";
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Ground" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Island" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage11X2XIsland12X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage11X2XIsland12X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XIsland12X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage[ label ="11&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage11X2XIsland12X1X_Island[ label ="12"  shape=square ];
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Ground" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Player" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage";
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Ground" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Island" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage12X2XIsland12X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage12X2XIsland12X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage12X2XIsland12X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage[ label ="12&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage12X2XIsland12X1X_Island[ label ="12"  shape=square ];
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Ground" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Player" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage";
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Ground" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Island" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage12X2XIsland13X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage12X2XIsland13X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage12X2XIsland13X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage[ label ="12&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage12X2XIsland13X1X_Island[ label ="13"  shape=square ];
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Ground" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Player" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage";
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Ground" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Island" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage13X2XIsland13X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage13X2XIsland13X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage13X2XIsland13X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage[ label ="13&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage13X2XIsland13X1X_Island[ label ="13"  shape=square ];
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Ground" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Player" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage";
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Ground" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Island" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage13X2XIsland14X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage13X2XIsland14X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage13X2XIsland14X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage[ label ="13&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage13X2XIsland14X1X_Island[ label ="14"  shape=square ];
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Ground" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Player" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage";
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Ground" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Island" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage14X2XIsland14X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage14X2XIsland14X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage14X2XIsland14X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage[ label ="14&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage14X2XIsland14X1X_Island[ label ="14"  shape=square ];
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Ground" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Player" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage";
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Ground" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Island" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage14X2XIsland15X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage14X2XIsland15X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage14X2XIsland15X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage[ label ="14&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage14X2XIsland15X1X_Island[ label ="15"  shape=square ];
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Ground" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Player" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage";
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Ground" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Island" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage15X2XIsland15X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage15X2XIsland15X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage15X2XIsland15X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage[ label ="15&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage15X2XIsland15X1X_Island[ label ="15"  shape=square ];
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Ground" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Player" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage";
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Ground" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Island" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage15X2XIsland16X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage15X2XIsland16X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage15X2XIsland16X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage[ label ="15&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage15X2XIsland16X1X_Island[ label ="16"  shape=square ];
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Ground" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Player" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage";
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Ground" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Island" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage16X2XIsland16X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage16X2XIsland16X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage16X2XIsland16X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage[ label ="16&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage16X2XIsland16X1X_Island[ label ="16"  shape=square ];
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Ground" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Player" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage";
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Ground" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Island" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage16X2XIsland17X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage16X2XIsland17X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage16X2XIsland17X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage[ label ="16&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage16X2XIsland17X1X_Island[ label ="17"  shape=square ];
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Ground" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Player" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage";
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Ground" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Island" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage17X2XIsland17X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage17X2XIsland17X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage17X2XIsland17X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage[ label ="17&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage17X2XIsland17X1X_Island[ label ="17"  shape=square ];
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Ground" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Player" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage";
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Ground" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Island" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage17X2XIsland18X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage17X2XIsland18X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage17X2XIsland18X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage[ label ="17&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage17X2XIsland18X1X_Island[ label ="18"  shape=square ];
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Ground" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Player" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage";
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Ground" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Island" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage18X2XIsland18X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage18X2XIsland18X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage18X2XIsland18X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage[ label ="18&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage18X2XIsland18X1X_Island[ label ="18"  shape=square ];
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Ground" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Player" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage";
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Ground" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Island" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage18X2XIsland19X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage18X2XIsland19X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage18X2XIsland19X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage[ label ="18&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage18X2XIsland19X1X_Island[ label ="19"  shape=square ];
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Ground" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Player" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage";
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Ground" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Island" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage19X2XIsland19X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage19X2XIsland19X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage19X2XIsland19X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage[ label ="19&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage19X2XIsland19X1X_Island[ label ="19"  shape=square ];
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Ground" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Player" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage";
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Ground" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Island" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage19X2XIsland20X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage19X2XIsland20X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage19X2XIsland20X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage[ label ="19&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage19X2XIsland20X1X_Island[ label ="20"  shape=square ];
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Ground" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Player" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage";
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Ground" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Island" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage20X2XIsland20X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage20X2XIsland20X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage20X2XIsland20X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage[ label ="20&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage20X2XIsland20X1X_Island[ label ="20"  shape=square ];
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Ground" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Player" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage";
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Ground" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Island" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage20X2XIsland21X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage20X2XIsland21X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage20X2XIsland21X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage[ label ="20&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage20X2XIsland21X1X_Island[ label ="21"  shape=square ];
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Ground" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Player" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage";
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Ground" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Island" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage21X2XIsland21X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage21X2XIsland21X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage21X2XIsland21X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage[ label ="21&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage21X2XIsland21X1X_Island[ label ="21"  shape=square ];
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Ground" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Player" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage";
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Ground" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Island" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage21X2XIsland22X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage21X2XIsland22X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage21X2XIsland22X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage[ label ="21&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage21X2XIsland22X1X_Island[ label ="22"  shape=square ];
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Ground" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Player" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage";
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Ground" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Island" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage22X2XIsland22X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage22X2XIsland22X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage22X2XIsland22X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage[ label ="22&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage22X2XIsland22X1X_Island[ label ="22"  shape=square ];
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Ground" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Player" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage";
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Ground" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Island" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage22X2XIsland23X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage22X2XIsland23X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage22X2XIsland23X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage[ label ="22&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage22X2XIsland23X1X_Island[ label ="23"  shape=square ];
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Ground" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Player" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage";
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Ground" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Island" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage23X2XIsland23X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage23X2XIsland23X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage23X2XIsland23X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage[ label ="23&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage23X2XIsland23X1X_Island[ label ="23"  shape=square ];
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Ground" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Player" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage";
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Ground" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Island" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage23X2XIsland24X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage23X2XIsland24X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage23X2XIsland24X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage[ label ="23&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage23X2XIsland24X1X_Island[ label ="24"  shape=square ];
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Ground" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Player" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage";
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Ground" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Island" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage24X2XIsland24X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage24X2XIsland24X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage24X2XIsland24X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage[ label ="24&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage24X2XIsland24X1X_Island[ label ="24"  shape=square ];
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Ground" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Player" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage";
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Ground" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Island" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage24X2XIsland25X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage24X2XIsland25X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage24X2XIsland25X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage[ label ="24&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage24X2XIsland25X1X_Island[ label ="25"  shape=square ];
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Ground" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Player" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage";
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Ground" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Island" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage25X2XIsland25X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage25X2XIsland25X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage25X2XIsland25X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage[ label ="25&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage25X2XIsland25X1X_Island[ label ="25"  shape=square ];
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Ground" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Player" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage";
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Ground" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Island" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage25X2XIsland26X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage25X2XIsland26X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage25X2XIsland26X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage[ label ="25&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage25X2XIsland26X1X_Island[ label ="26"  shape=square ];
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Ground" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Player" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage";
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Ground" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Island" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage26X2XIsland26X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage26X2XIsland26X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage26X2XIsland26X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage[ label ="26&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage26X2XIsland26X1X_Island[ label ="26"  shape=square ];
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Ground" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Player" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage";
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Ground" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Island" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage26X2XIsland27X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage26X2XIsland27X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage26X2XIsland27X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage[ label ="26&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage26X2XIsland27X1X_Island[ label ="27"  shape=square ];
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Ground" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Player" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage";
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Ground" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Island" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage27X2XIsland27X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage27X2XIsland27X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage27X2XIsland27X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage[ label ="27&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage27X2XIsland27X1X_Island[ label ="27"  shape=square ];
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Ground" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Player" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage";
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Ground" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Island" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage27X2XIsland28X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage27X2XIsland28X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage27X2XIsland28X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage[ label ="27&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage27X2XIsland28X1X_Island[ label ="28"  shape=square ];
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Ground" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Player" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage";
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Ground" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Island" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage28X2XIsland28X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage28X2XIsland28X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage28X2XIsland28X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage[ label ="28&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage28X2XIsland28X1X_Island[ label ="28"  shape=square ];
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Ground" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Player" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage";
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Ground" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Island" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage28X2XIsland29X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage28X2XIsland29X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage28X2XIsland29X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage[ label ="28&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage28X2XIsland29X1X_Island[ label ="29"  shape=square ];
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Ground" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Player" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage";
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Ground" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Island" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage29X2XIsland29X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage29X2XIsland29X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage29X2XIsland29X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage[ label ="29&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage29X2XIsland29X1X_Island[ label ="29"  shape=square ];
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Ground" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Player" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage";
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Ground" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Island" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage29X2XIsland30X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage29X2XIsland30X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage29X2XIsland30X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage[ label ="29&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage29X2XIsland30X1X_Island[ label ="30"  shape=square ];
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Ground" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Player" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage";
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Ground" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Island" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage30X2XIsland30X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage30X2XIsland30X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage30X2XIsland30X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage[ label ="30&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage30X2XIsland30X1X_Island[ label ="30"  shape=square ];
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Ground" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Player" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage";
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Ground" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Island" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage30X2XIsland31X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage30X2XIsland31X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage30X2XIsland31X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage[ label ="30&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage30X2XIsland31X1X_Island[ label ="31"  shape=square ];
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Ground" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Player" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage";
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Ground" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Island" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage31X2XIsland31X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage31X2XIsland31X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage31X2XIsland31X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage[ label ="31&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage31X2XIsland31X1X_Island[ label ="31"  shape=square ];
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Ground" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Player" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage";
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Ground" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Island" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage31X2XIsland32X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage31X2XIsland32X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage31X2XIsland32X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage[ label ="31&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage31X2XIsland32X1X_Island[ label ="32"  shape=square ];
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Ground" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Player" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage";
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Ground" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Island" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage32X2XIsland32X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage32X2XIsland32X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage32X2XIsland32X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage[ label ="32&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage32X2XIsland32X1X_Island[ label ="32"  shape=square ];
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Ground" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Player" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage";
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Ground" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Island" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage32X2XIsland33X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage32X2XIsland33X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage32X2XIsland33X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage[ label ="32&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage32X2XIsland33X1X_Island[ label ="33"  shape=square ];
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Ground" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Player" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage";
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Ground" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Island" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage33X2XIsland33X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage33X2XIsland33X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage33X2XIsland33X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage[ label ="33&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage33X2XIsland33X1X_Island[ label ="33"  shape=square ];
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Ground" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Player" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage";
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Ground" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Island" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage33X2XIsland34X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage33X2XIsland34X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage33X2XIsland34X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage[ label ="33&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage33X2XIsland34X1X_Island[ label ="34"  shape=square ];
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Ground" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Player" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage";
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Ground" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Island" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage34X2XIsland34X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage34X2XIsland34X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage34X2XIsland34X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage[ label ="34&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage34X2XIsland34X1X_Island[ label ="34"  shape=square ];
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Ground" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Player" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage";
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Ground" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Island" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage34X2XIsland35X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage34X2XIsland35X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage34X2XIsland35X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage[ label ="34&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage34X2XIsland35X1X_Island[ label ="35"  shape=square ];
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Ground" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Player" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage";
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Ground" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Island" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage35X2XIsland35X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage35X2XIsland35X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage35X2XIsland35X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage[ label ="35&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage35X2XIsland35X1X_Island[ label ="35"  shape=square ];
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Ground" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Player" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage";
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Ground" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Island" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage35X2XIsland36X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage35X2XIsland36X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage35X2XIsland36X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage[ label ="35&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage35X2XIsland36X1X_Island[ label ="36"  shape=square ];
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Ground" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Player" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage";
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Ground" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Island" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage36X2XIsland36X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage36X2XIsland36X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage36X2XIsland36X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage[ label ="36&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage36X2XIsland36X1X_Island[ label ="36"  shape=square ];
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Ground" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Player" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage";
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Ground" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Island" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage36X2XIsland37X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage36X2XIsland37X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage36X2XIsland37X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage[ label ="36&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage36X2XIsland37X1X_Island[ label ="37"  shape=square ];
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Ground" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Player" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage";
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Ground" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Island" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage37X2XIsland37X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage37X2XIsland37X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage37X2XIsland37X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage[ label ="37&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage37X2XIsland37X1X_Island[ label ="37"  shape=square ];
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Ground" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Player" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage";
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Ground" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Island" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage37X2XIsland38X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage37X2XIsland38X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage37X2XIsland38X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage[ label ="37&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage37X2XIsland38X1X_Island[ label ="38"  shape=square ];
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Ground" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Player" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage";
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Ground" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Island" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage38X2XIsland38X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage38X2XIsland38X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage38X2XIsland38X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage[ label ="38&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage38X2XIsland38X1X_Island[ label ="38"  shape=square ];
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Ground" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Player" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage";
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Ground" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Island" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage38X2XIsland39X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage38X2XIsland39X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage38X2XIsland39X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage[ label ="38&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage38X2XIsland39X1X_Island[ label ="39"  shape=square ];
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Ground" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Player" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage";
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Ground" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Island" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage39X2XIsland39X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage39X2XIsland39X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage39X2XIsland39X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage[ label ="39&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage39X2XIsland39X1X_Island[ label ="39"  shape=square ];
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Ground" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Player" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage";
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Ground" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Island" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage39X2XIsland40X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage39X2XIsland40X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage39X2XIsland40X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage[ label ="39&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage39X2XIsland40X1X_Island[ label ="40"  shape=square ];
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Ground" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Player" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage";
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Ground" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Island" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage40X2XIsland40X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage40X2XIsland40X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage40X2XIsland40X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage[ label ="40&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage40X2XIsland40X1X_Island[ label ="40"  shape=square ];
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Ground" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Player" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage";
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Ground" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Island" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage40X2XIsland41X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage40X2XIsland41X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage40X2XIsland41X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage[ label ="40&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage40X2XIsland41X1X_Island[ label ="41"  shape=square ];
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Ground" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Player" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage";
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Ground" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Island" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage41X2XIsland41X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage41X2XIsland41X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage41X2XIsland41X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage[ label ="41&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage41X2XIsland41X1X_Island[ label ="41"  shape=square ];
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Ground" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Player" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage";
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Ground" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Island" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage41X2XIsland42X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage41X2XIsland42X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage41X2XIsland42X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage[ label ="41&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage41X2XIsland42X1X_Island[ label ="42"  shape=square ];
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Ground" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Player" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage";
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Ground" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Island" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage42X2XIsland42X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage42X2XIsland42X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage42X2XIsland42X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage[ label ="42&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage42X2XIsland42X1X_Island[ label ="42"  shape=square ];
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Ground" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Player" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage";
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Ground" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Island" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage42X2XIsland43X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage42X2XIsland43X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage42X2XIsland43X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage[ label ="42&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage42X2XIsland43X1X_Island[ label ="43"  shape=square ];
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Ground" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Player" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage";
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Ground" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Island" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage43X2XIsland43X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage43X2XIsland43X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage43X2XIsland43X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage[ label ="43&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage43X2XIsland43X1X_Island[ label ="43"  shape=square ];
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Ground" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Player" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage";
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Ground" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Island" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage43X2XIsland44X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage43X2XIsland44X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage43X2XIsland44X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage[ label ="43&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage43X2XIsland44X1X_Island[ label ="44"  shape=square ];
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Ground" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Player" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage";
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Ground" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Island" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage44X2XIsland44X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage44X2XIsland44X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage44X2XIsland44X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage[ label ="44&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage44X2XIsland44X1X_Island[ label ="44"  shape=square ];
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Ground" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Player" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage";
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Ground" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Island" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage44X2XIsland45X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage44X2XIsland45X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage44X2XIsland45X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage[ label ="44&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage44X2XIsland45X1X_Island[ label ="45"  shape=square ];
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Ground" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Player" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage";
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Ground" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Island" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage45X2XIsland45X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage45X2XIsland45X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage45X2XIsland45X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage[ label ="45&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage45X2XIsland45X1X_Island[ label ="45"  shape=square ];
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Ground" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Player" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage";
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Ground" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Island" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage45X2XIsland46X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage45X2XIsland46X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage45X2XIsland46X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage[ label ="45&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage45X2XIsland46X1X_Island[ label ="46"  shape=square ];
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Ground" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Player" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage";
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Ground" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Island" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage46X2XIsland46X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage46X2XIsland46X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage46X2XIsland46X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage[ label ="46&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage46X2XIsland46X1X_Island[ label ="46"  shape=square ];
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Ground" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Player" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage";
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Ground" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Island" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage46X2XIsland47X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage46X2XIsland47X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage46X2XIsland47X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage[ label ="46&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage46X2XIsland47X1X_Island[ label ="47"  shape=square ];
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Ground" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Player" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage";
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Ground" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Island" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage47X2XIsland47X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage47X2XIsland47X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage47X2XIsland47X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage[ label ="47&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage47X2XIsland47X1X_Island[ label ="47"  shape=square ];
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Ground" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Player" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage";
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Ground" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Island" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage47X2XIsland48X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage47X2XIsland48X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage47X2XIsland48X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage[ label ="47&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage47X2XIsland48X1X_Island[ label ="48"  shape=square ];
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Ground" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Player" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage";
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Ground" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Island" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage48X2XIsland48X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage48X2XIsland48X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage48X2XIsland48X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage[ label ="48&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage48X2XIsland48X1X_Island[ label ="48"  shape=square ];
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Ground" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Player" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage";
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Ground" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Island" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage48X2XIsland49X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage48X2XIsland49X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage48X2XIsland49X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage[ label ="48&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage48X2XIsland49X1X_Island[ label ="49"  shape=square ];
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Ground" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Player" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage";
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Ground" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Island" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage49X2XIsland49X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage49X2XIsland49X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage49X2XIsland49X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage[ label ="49&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage49X2XIsland49X1X_Island[ label ="49"  shape=square ];
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Ground" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Player" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage";
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Ground" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Island" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage49X2XIsland50X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage49X2XIsland50X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage49X2XIsland50X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage[ label ="49&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage49X2XIsland50X1X_Island[ label ="50"  shape=square ];
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Ground" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Player" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage";
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Ground" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Island" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage50X2XIsland50X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage50X2XIsland50X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage50X2XIsland50X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage[ label ="50&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage50X2XIsland50X1X_Island[ label ="50"  shape=square ];
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Ground" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Player" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage";
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Ground" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Island" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage";
+}
+subgraph cluster_Player1X1XGround0X1XSausage50X2XIsland51X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage50X2XIsland51X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage50X2XIsland51X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage50X2XIsland51X1X_Sausage[ label ="50&#8635;"  shape=circle ];
+Player1X1XGround0X1XSausage50X2XIsland51X1X_Island[ label ="51"  shape=square ];
+	"Player1X1XGround0X1XSausage50X2XIsland51X1X_Ground" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland51X1X_Player" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Sausage";
+	"Player1X1XGround0X1XSausage50X2XIsland51X1X_Ground" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Sausage" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland51X1X_Sausage" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage50X2XIsland51X1X_Island" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Sausage";
+}
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage0X1XIsland0X1X_Sausage rtail = Player1X1XGround0X1XSausage1X2XIsland0X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X_Island" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X_Island" [ ltail = Player1X1XGround0X1XSausage1X2XIsland0X1X_Island rtail = Player1X1XGround0X1XSausage1X2XIsland2X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage" -> "Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage1X2XIsland2X1X_Sausage rtail = Player1X1XGround0X1XSausage2X2XIsland2X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage2X2XIsland2X1X_Island" -> "Player1X1XGround0X1XSausage2X2XIsland3X1X_Island" [ ltail = Player1X1XGround0X1XSausage2X2XIsland2X1X_Island rtail = Player1X1XGround0X1XSausage2X2XIsland3X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage" -> "Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage2X2XIsland3X1X_Sausage rtail = Player1X1XGround0X1XSausage3X2XIsland3X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage3X2XIsland3X1X_Island" -> "Player1X1XGround0X1XSausage3X2XIsland4X1X_Island" [ ltail = Player1X1XGround0X1XSausage3X2XIsland3X1X_Island rtail = Player1X1XGround0X1XSausage3X2XIsland4X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage" -> "Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage3X2XIsland4X1X_Sausage rtail = Player1X1XGround0X1XSausage4X2XIsland4X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage4X2XIsland4X1X_Island" -> "Player1X1XGround0X1XSausage4X2XIsland5X1X_Island" [ ltail = Player1X1XGround0X1XSausage4X2XIsland4X1X_Island rtail = Player1X1XGround0X1XSausage4X2XIsland5X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage" -> "Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage4X2XIsland5X1X_Sausage rtail = Player1X1XGround0X1XSausage5X2XIsland5X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage5X2XIsland5X1X_Island" -> "Player1X1XGround0X1XSausage5X2XIsland6X1X_Island" [ ltail = Player1X1XGround0X1XSausage5X2XIsland5X1X_Island rtail = Player1X1XGround0X1XSausage5X2XIsland6X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage" -> "Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage5X2XIsland6X1X_Sausage rtail = Player1X1XGround0X1XSausage6X2XIsland6X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage6X2XIsland6X1X_Island" -> "Player1X1XGround0X1XSausage6X2XIsland7X1X_Island" [ ltail = Player1X1XGround0X1XSausage6X2XIsland6X1X_Island rtail = Player1X1XGround0X1XSausage6X2XIsland7X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage" -> "Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage6X2XIsland7X1X_Sausage rtail = Player1X1XGround0X1XSausage7X2XIsland7X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage7X2XIsland7X1X_Island" -> "Player1X1XGround0X1XSausage7X2XIsland8X1X_Island" [ ltail = Player1X1XGround0X1XSausage7X2XIsland7X1X_Island rtail = Player1X1XGround0X1XSausage7X2XIsland8X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage" -> "Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage7X2XIsland8X1X_Sausage rtail = Player1X1XGround0X1XSausage8X2XIsland8X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage8X2XIsland8X1X_Island" -> "Player1X1XGround0X1XSausage8X2XIsland9X1X_Island" [ ltail = Player1X1XGround0X1XSausage8X2XIsland8X1X_Island rtail = Player1X1XGround0X1XSausage8X2XIsland9X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage" -> "Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage8X2XIsland9X1X_Sausage rtail = Player1X1XGround0X1XSausage9X2XIsland9X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage9X2XIsland9X1X_Island" -> "Player1X1XGround0X1XSausage9X2XIsland10X1X_Island" [ ltail = Player1X1XGround0X1XSausage9X2XIsland9X1X_Island rtail = Player1X1XGround0X1XSausage9X2XIsland10X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage" -> "Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage9X2XIsland10X1X_Sausage rtail = Player1X1XGround0X1XSausage10X2XIsland10X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage10X2XIsland10X1X_Island" -> "Player1X1XGround0X1XSausage10X2XIsland11X1X_Island" [ ltail = Player1X1XGround0X1XSausage10X2XIsland10X1X_Island rtail = Player1X1XGround0X1XSausage10X2XIsland11X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage" -> "Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage10X2XIsland11X1X_Sausage rtail = Player1X1XGround0X1XSausage11X2XIsland11X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage11X2XIsland11X1X_Island" -> "Player1X1XGround0X1XSausage11X2XIsland12X1X_Island" [ ltail = Player1X1XGround0X1XSausage11X2XIsland11X1X_Island rtail = Player1X1XGround0X1XSausage11X2XIsland12X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage" -> "Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage11X2XIsland12X1X_Sausage rtail = Player1X1XGround0X1XSausage12X2XIsland12X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage12X2XIsland12X1X_Island" -> "Player1X1XGround0X1XSausage12X2XIsland13X1X_Island" [ ltail = Player1X1XGround0X1XSausage12X2XIsland12X1X_Island rtail = Player1X1XGround0X1XSausage12X2XIsland13X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage" -> "Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage12X2XIsland13X1X_Sausage rtail = Player1X1XGround0X1XSausage13X2XIsland13X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage13X2XIsland13X1X_Island" -> "Player1X1XGround0X1XSausage13X2XIsland14X1X_Island" [ ltail = Player1X1XGround0X1XSausage13X2XIsland13X1X_Island rtail = Player1X1XGround0X1XSausage13X2XIsland14X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage" -> "Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage13X2XIsland14X1X_Sausage rtail = Player1X1XGround0X1XSausage14X2XIsland14X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage14X2XIsland14X1X_Island" -> "Player1X1XGround0X1XSausage14X2XIsland15X1X_Island" [ ltail = Player1X1XGround0X1XSausage14X2XIsland14X1X_Island rtail = Player1X1XGround0X1XSausage14X2XIsland15X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage" -> "Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage14X2XIsland15X1X_Sausage rtail = Player1X1XGround0X1XSausage15X2XIsland15X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage15X2XIsland15X1X_Island" -> "Player1X1XGround0X1XSausage15X2XIsland16X1X_Island" [ ltail = Player1X1XGround0X1XSausage15X2XIsland15X1X_Island rtail = Player1X1XGround0X1XSausage15X2XIsland16X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage" -> "Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage15X2XIsland16X1X_Sausage rtail = Player1X1XGround0X1XSausage16X2XIsland16X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage16X2XIsland16X1X_Island" -> "Player1X1XGround0X1XSausage16X2XIsland17X1X_Island" [ ltail = Player1X1XGround0X1XSausage16X2XIsland16X1X_Island rtail = Player1X1XGround0X1XSausage16X2XIsland17X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage" -> "Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage16X2XIsland17X1X_Sausage rtail = Player1X1XGround0X1XSausage17X2XIsland17X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage17X2XIsland17X1X_Island" -> "Player1X1XGround0X1XSausage17X2XIsland18X1X_Island" [ ltail = Player1X1XGround0X1XSausage17X2XIsland17X1X_Island rtail = Player1X1XGround0X1XSausage17X2XIsland18X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage" -> "Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage17X2XIsland18X1X_Sausage rtail = Player1X1XGround0X1XSausage18X2XIsland18X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage18X2XIsland18X1X_Island" -> "Player1X1XGround0X1XSausage18X2XIsland19X1X_Island" [ ltail = Player1X1XGround0X1XSausage18X2XIsland18X1X_Island rtail = Player1X1XGround0X1XSausage18X2XIsland19X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage" -> "Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage18X2XIsland19X1X_Sausage rtail = Player1X1XGround0X1XSausage19X2XIsland19X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage19X2XIsland19X1X_Island" -> "Player1X1XGround0X1XSausage19X2XIsland20X1X_Island" [ ltail = Player1X1XGround0X1XSausage19X2XIsland19X1X_Island rtail = Player1X1XGround0X1XSausage19X2XIsland20X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage" -> "Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage19X2XIsland20X1X_Sausage rtail = Player1X1XGround0X1XSausage20X2XIsland20X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage20X2XIsland20X1X_Island" -> "Player1X1XGround0X1XSausage20X2XIsland21X1X_Island" [ ltail = Player1X1XGround0X1XSausage20X2XIsland20X1X_Island rtail = Player1X1XGround0X1XSausage20X2XIsland21X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage" -> "Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage20X2XIsland21X1X_Sausage rtail = Player1X1XGround0X1XSausage21X2XIsland21X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage21X2XIsland21X1X_Island" -> "Player1X1XGround0X1XSausage21X2XIsland22X1X_Island" [ ltail = Player1X1XGround0X1XSausage21X2XIsland21X1X_Island rtail = Player1X1XGround0X1XSausage21X2XIsland22X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage" -> "Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage21X2XIsland22X1X_Sausage rtail = Player1X1XGround0X1XSausage22X2XIsland22X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage22X2XIsland22X1X_Island" -> "Player1X1XGround0X1XSausage22X2XIsland23X1X_Island" [ ltail = Player1X1XGround0X1XSausage22X2XIsland22X1X_Island rtail = Player1X1XGround0X1XSausage22X2XIsland23X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage" -> "Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage22X2XIsland23X1X_Sausage rtail = Player1X1XGround0X1XSausage23X2XIsland23X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage23X2XIsland23X1X_Island" -> "Player1X1XGround0X1XSausage23X2XIsland24X1X_Island" [ ltail = Player1X1XGround0X1XSausage23X2XIsland23X1X_Island rtail = Player1X1XGround0X1XSausage23X2XIsland24X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage" -> "Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage23X2XIsland24X1X_Sausage rtail = Player1X1XGround0X1XSausage24X2XIsland24X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage24X2XIsland24X1X_Island" -> "Player1X1XGround0X1XSausage24X2XIsland25X1X_Island" [ ltail = Player1X1XGround0X1XSausage24X2XIsland24X1X_Island rtail = Player1X1XGround0X1XSausage24X2XIsland25X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage" -> "Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage24X2XIsland25X1X_Sausage rtail = Player1X1XGround0X1XSausage25X2XIsland25X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage25X2XIsland25X1X_Island" -> "Player1X1XGround0X1XSausage25X2XIsland26X1X_Island" [ ltail = Player1X1XGround0X1XSausage25X2XIsland25X1X_Island rtail = Player1X1XGround0X1XSausage25X2XIsland26X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage" -> "Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage25X2XIsland26X1X_Sausage rtail = Player1X1XGround0X1XSausage26X2XIsland26X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage26X2XIsland26X1X_Island" -> "Player1X1XGround0X1XSausage26X2XIsland27X1X_Island" [ ltail = Player1X1XGround0X1XSausage26X2XIsland26X1X_Island rtail = Player1X1XGround0X1XSausage26X2XIsland27X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage" -> "Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage26X2XIsland27X1X_Sausage rtail = Player1X1XGround0X1XSausage27X2XIsland27X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage27X2XIsland27X1X_Island" -> "Player1X1XGround0X1XSausage27X2XIsland28X1X_Island" [ ltail = Player1X1XGround0X1XSausage27X2XIsland27X1X_Island rtail = Player1X1XGround0X1XSausage27X2XIsland28X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage" -> "Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage27X2XIsland28X1X_Sausage rtail = Player1X1XGround0X1XSausage28X2XIsland28X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage28X2XIsland28X1X_Island" -> "Player1X1XGround0X1XSausage28X2XIsland29X1X_Island" [ ltail = Player1X1XGround0X1XSausage28X2XIsland28X1X_Island rtail = Player1X1XGround0X1XSausage28X2XIsland29X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage" -> "Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage28X2XIsland29X1X_Sausage rtail = Player1X1XGround0X1XSausage29X2XIsland29X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage29X2XIsland29X1X_Island" -> "Player1X1XGround0X1XSausage29X2XIsland30X1X_Island" [ ltail = Player1X1XGround0X1XSausage29X2XIsland29X1X_Island rtail = Player1X1XGround0X1XSausage29X2XIsland30X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage" -> "Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage29X2XIsland30X1X_Sausage rtail = Player1X1XGround0X1XSausage30X2XIsland30X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage30X2XIsland30X1X_Island" -> "Player1X1XGround0X1XSausage30X2XIsland31X1X_Island" [ ltail = Player1X1XGround0X1XSausage30X2XIsland30X1X_Island rtail = Player1X1XGround0X1XSausage30X2XIsland31X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage" -> "Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage30X2XIsland31X1X_Sausage rtail = Player1X1XGround0X1XSausage31X2XIsland31X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage31X2XIsland31X1X_Island" -> "Player1X1XGround0X1XSausage31X2XIsland32X1X_Island" [ ltail = Player1X1XGround0X1XSausage31X2XIsland31X1X_Island rtail = Player1X1XGround0X1XSausage31X2XIsland32X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage" -> "Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage31X2XIsland32X1X_Sausage rtail = Player1X1XGround0X1XSausage32X2XIsland32X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage32X2XIsland32X1X_Island" -> "Player1X1XGround0X1XSausage32X2XIsland33X1X_Island" [ ltail = Player1X1XGround0X1XSausage32X2XIsland32X1X_Island rtail = Player1X1XGround0X1XSausage32X2XIsland33X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage" -> "Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage32X2XIsland33X1X_Sausage rtail = Player1X1XGround0X1XSausage33X2XIsland33X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage33X2XIsland33X1X_Island" -> "Player1X1XGround0X1XSausage33X2XIsland34X1X_Island" [ ltail = Player1X1XGround0X1XSausage33X2XIsland33X1X_Island rtail = Player1X1XGround0X1XSausage33X2XIsland34X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage" -> "Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage33X2XIsland34X1X_Sausage rtail = Player1X1XGround0X1XSausage34X2XIsland34X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage34X2XIsland34X1X_Island" -> "Player1X1XGround0X1XSausage34X2XIsland35X1X_Island" [ ltail = Player1X1XGround0X1XSausage34X2XIsland34X1X_Island rtail = Player1X1XGround0X1XSausage34X2XIsland35X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage" -> "Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage34X2XIsland35X1X_Sausage rtail = Player1X1XGround0X1XSausage35X2XIsland35X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage35X2XIsland35X1X_Island" -> "Player1X1XGround0X1XSausage35X2XIsland36X1X_Island" [ ltail = Player1X1XGround0X1XSausage35X2XIsland35X1X_Island rtail = Player1X1XGround0X1XSausage35X2XIsland36X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage" -> "Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage35X2XIsland36X1X_Sausage rtail = Player1X1XGround0X1XSausage36X2XIsland36X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage36X2XIsland36X1X_Island" -> "Player1X1XGround0X1XSausage36X2XIsland37X1X_Island" [ ltail = Player1X1XGround0X1XSausage36X2XIsland36X1X_Island rtail = Player1X1XGround0X1XSausage36X2XIsland37X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage" -> "Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage36X2XIsland37X1X_Sausage rtail = Player1X1XGround0X1XSausage37X2XIsland37X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage37X2XIsland37X1X_Island" -> "Player1X1XGround0X1XSausage37X2XIsland38X1X_Island" [ ltail = Player1X1XGround0X1XSausage37X2XIsland37X1X_Island rtail = Player1X1XGround0X1XSausage37X2XIsland38X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage" -> "Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage37X2XIsland38X1X_Sausage rtail = Player1X1XGround0X1XSausage38X2XIsland38X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage38X2XIsland38X1X_Island" -> "Player1X1XGround0X1XSausage38X2XIsland39X1X_Island" [ ltail = Player1X1XGround0X1XSausage38X2XIsland38X1X_Island rtail = Player1X1XGround0X1XSausage38X2XIsland39X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage" -> "Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage38X2XIsland39X1X_Sausage rtail = Player1X1XGround0X1XSausage39X2XIsland39X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage39X2XIsland39X1X_Island" -> "Player1X1XGround0X1XSausage39X2XIsland40X1X_Island" [ ltail = Player1X1XGround0X1XSausage39X2XIsland39X1X_Island rtail = Player1X1XGround0X1XSausage39X2XIsland40X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage" -> "Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage39X2XIsland40X1X_Sausage rtail = Player1X1XGround0X1XSausage40X2XIsland40X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage40X2XIsland40X1X_Island" -> "Player1X1XGround0X1XSausage40X2XIsland41X1X_Island" [ ltail = Player1X1XGround0X1XSausage40X2XIsland40X1X_Island rtail = Player1X1XGround0X1XSausage40X2XIsland41X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage" -> "Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage40X2XIsland41X1X_Sausage rtail = Player1X1XGround0X1XSausage41X2XIsland41X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage41X2XIsland41X1X_Island" -> "Player1X1XGround0X1XSausage41X2XIsland42X1X_Island" [ ltail = Player1X1XGround0X1XSausage41X2XIsland41X1X_Island rtail = Player1X1XGround0X1XSausage41X2XIsland42X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage" -> "Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage41X2XIsland42X1X_Sausage rtail = Player1X1XGround0X1XSausage42X2XIsland42X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage42X2XIsland42X1X_Island" -> "Player1X1XGround0X1XSausage42X2XIsland43X1X_Island" [ ltail = Player1X1XGround0X1XSausage42X2XIsland42X1X_Island rtail = Player1X1XGround0X1XSausage42X2XIsland43X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage" -> "Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage42X2XIsland43X1X_Sausage rtail = Player1X1XGround0X1XSausage43X2XIsland43X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage43X2XIsland43X1X_Island" -> "Player1X1XGround0X1XSausage43X2XIsland44X1X_Island" [ ltail = Player1X1XGround0X1XSausage43X2XIsland43X1X_Island rtail = Player1X1XGround0X1XSausage43X2XIsland44X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage" -> "Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage43X2XIsland44X1X_Sausage rtail = Player1X1XGround0X1XSausage44X2XIsland44X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage44X2XIsland44X1X_Island" -> "Player1X1XGround0X1XSausage44X2XIsland45X1X_Island" [ ltail = Player1X1XGround0X1XSausage44X2XIsland44X1X_Island rtail = Player1X1XGround0X1XSausage44X2XIsland45X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage" -> "Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage44X2XIsland45X1X_Sausage rtail = Player1X1XGround0X1XSausage45X2XIsland45X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage45X2XIsland45X1X_Island" -> "Player1X1XGround0X1XSausage45X2XIsland46X1X_Island" [ ltail = Player1X1XGround0X1XSausage45X2XIsland45X1X_Island rtail = Player1X1XGround0X1XSausage45X2XIsland46X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage" -> "Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage45X2XIsland46X1X_Sausage rtail = Player1X1XGround0X1XSausage46X2XIsland46X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage46X2XIsland46X1X_Island" -> "Player1X1XGround0X1XSausage46X2XIsland47X1X_Island" [ ltail = Player1X1XGround0X1XSausage46X2XIsland46X1X_Island rtail = Player1X1XGround0X1XSausage46X2XIsland47X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage" -> "Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage46X2XIsland47X1X_Sausage rtail = Player1X1XGround0X1XSausage47X2XIsland47X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage47X2XIsland47X1X_Island" -> "Player1X1XGround0X1XSausage47X2XIsland48X1X_Island" [ ltail = Player1X1XGround0X1XSausage47X2XIsland47X1X_Island rtail = Player1X1XGround0X1XSausage47X2XIsland48X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage" -> "Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage47X2XIsland48X1X_Sausage rtail = Player1X1XGround0X1XSausage48X2XIsland48X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage48X2XIsland48X1X_Island" -> "Player1X1XGround0X1XSausage48X2XIsland49X1X_Island" [ ltail = Player1X1XGround0X1XSausage48X2XIsland48X1X_Island rtail = Player1X1XGround0X1XSausage48X2XIsland49X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage" -> "Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage48X2XIsland49X1X_Sausage rtail = Player1X1XGround0X1XSausage49X2XIsland49X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage49X2XIsland49X1X_Island" -> "Player1X1XGround0X1XSausage49X2XIsland50X1X_Island" [ ltail = Player1X1XGround0X1XSausage49X2XIsland49X1X_Island rtail = Player1X1XGround0X1XSausage49X2XIsland50X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage" -> "Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage" [ ltail = Player1X1XGround0X1XSausage49X2XIsland50X1X_Sausage rtail = Player1X1XGround0X1XSausage50X2XIsland50X1X_Sausage color=red ];
+	"Player1X1XGround0X1XSausage50X2XIsland50X1X_Island" -> "Player1X1XGround0X1XSausage50X2XIsland51X1X_Island" [ ltail = Player1X1XGround0X1XSausage50X2XIsland50X1X_Island rtail = Player1X1XGround0X1XSausage50X2XIsland51X1X_Island color=red ];
+}

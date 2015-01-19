@@ -1,0 +1,22 @@
+digraph G {
+Player1X1XGround0X1XSausage10X1XSausage00X1XSausage30X1XSausage20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage00X1XSausage30X1XSausage20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage21X2X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage21X0X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X0X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X2X		[ label="" shape=point peripheries=2 ];
+	"Player1X1XGround0X1XSausage10X1XSausage00X1XSausage30X1XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage00X1XSausage30X1XSausage20X1X";
+	"Player1X1XGround0X1XSausage11X2XSausage00X1XSausage30X1XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage20X1X";
+	"Player1X1XGround0X1XSausage11X2XSausage00X1XSausage30X1XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage20X1X";
+	"Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage20X1X";
+	"Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage21X2X";
+	"Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage20X1X";
+	"Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage21X0X";
+	"Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage20X1X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X0X";
+	"Player1X1XGround0X1XSausage11X2XSausage01X0XSausage30X1XSausage21X2X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X2X";
+	"Player1X1XGround0X1XSausage11X2XSausage00X1XSausage31X2XSausage21X0X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X0X";
+	"Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X2X" -> "Player1X1XGround0X1XSausage11X2XSausage01X0XSausage31X2XSausage21X0X";
+}

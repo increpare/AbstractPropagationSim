@@ -1,0 +1,12 @@
+digraph G {
+node [shape=record];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Sausage[ label ="{{<Player>1|<GroundP>0|<IslandP>0}|{Sausage}|<SausageOUT>0}"];
+Island[ label ="{{<SausageP>0}|{Island}|<IslandOUT>0}"];
+	"Ground" -> "Player":GroundP [style=dotted];
+	"Player" -> "Sausage":Player;
+	"Ground" -> "Sausage":GroundP [style=dotted];
+	"Island" -> "Sausage":IslandP [style=dotted];
+	"Sausage" -> "Island":SausageP [style=dotted];
+}

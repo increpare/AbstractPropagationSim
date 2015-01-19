@@ -1,0 +1,7 @@
+digraph G {
+Player1X1XGround0X1XSausage0X1XIsland0X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland0X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage1X2XIsland2X1X		[ label="" shape=point peripheries=2 ];
+	"Player1X1XGround0X1XSausage0X1XIsland0X1X" -> "Player1X1XGround0X1XSausage1X2XIsland0X1X";
+	"Player1X1XGround0X1XSausage1X2XIsland0X1X" -> "Player1X1XGround0X1XSausage1X2XIsland2X1X";
+}

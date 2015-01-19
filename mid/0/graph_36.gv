@@ -1,0 +1,34 @@
+digraph G {
+node [shape=record];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Sausage0[ label ="{{<Player>1|<Sausage1P>1 CW}|{Sausage0}|<Sausage0OUT>1 CCW|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Sausage1[ label ="{{<GroundP>0|<Island>1}|{Sausage1}|<Sausage1OUT>1 CW}"];
+Sausage0[ label ="{{<Player>1|<Sausage1P>1 CW}|{Sausage0}|<Sausage0OUT>1 CCW|{Player}}"];
+Sausage0[ label ="{{<Player>1|<Sausage1P>1 CW}|{Sausage0}|<Sausage0OUT>1 CCW|{Player}}"];
+Island[ label ="{{<Sausage0P>1 CCW}|{Island}|<IslandOUT>1|{Sausage0}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Sausage1[ label ="{{<GroundP>0|<Island>1}|{Sausage1}|<Sausage1OUT>1 CW}"];
+Sausage1[ label ="{{<GroundP>0|<Island>1}|{Sausage1}|<Sausage1OUT>1 CW}"];
+Sausage0[ label ="{{<Player>1|<Sausage1P>1 CW}|{Sausage0}|<Sausage0OUT>1 CCW|{Player}}"];
+Sausage0[ label ="{{<Player>1|<Sausage1P>1 CW}|{Sausage0}|<Sausage0OUT>1 CCW|{Player}}"];
+Island[ label ="{{<Sausage0P>1 CCW}|{Island}|<IslandOUT>1|{Sausage0}}"];
+Island[ label ="{{<Sausage0P>1 CCW}|{Island}|<IslandOUT>1|{Sausage0}}"];
+Sausage1[ label ="{{<GroundP>0|<Island>1}|{Sausage1}|<Sausage1OUT>1 CW}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Sausage1[ label ="{{<GroundP>0|<Island>1}|{Sausage1}|<Sausage1OUT>1 CW}"];
+	"Ground" -> "Player":GroundP [style=dotted];
+	"Player" -> "Sausage0":Player;
+	"Sausage1" -> "Sausage0":Sausage1P [style=dotted];
+	"Sausage0" -> "Island":Sausage0P [style=dotted];
+	"Ground" -> "Sausage1":GroundP [style=dotted];
+	"Island" -> "Sausage1":Island;
+}

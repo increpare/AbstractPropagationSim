@@ -6,7 +6,7 @@ public class Scenario
 		Game g = new Game();
 		g.gamestate = GameState.Parse (levelDat);
 		g.ProcessInput (InputDirection.Right);
-		Console.WriteLine (g.gamestate.ToString ());
+		//Console.WriteLine (g.gamestate.ToString ());
 	}
 }
 

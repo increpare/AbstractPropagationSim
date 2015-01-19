@@ -54,6 +54,7 @@
     <Compile Include="Game\Processes\GraphTraversal.cs" />
     <Compile Include="Game\Misc\Renderer.cs" />
     <Compile Include="Game\Structures\Graph\AbstractMovement.cs" />
+    <Compile Include="Game\Structures\Graph\MetaGraph.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

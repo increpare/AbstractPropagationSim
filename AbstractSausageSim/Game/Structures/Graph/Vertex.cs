@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public struct Vertex    {
+public struct Vertex :IEquatable<Vertex>   {
 	public readonly Entity target;
 	public readonly string name;
+	public bool Immutable() {
+		return name == "Player" || name=="Ground";
+	}
 
 	public Vertex(Entity target, string name){
 		this.target = target;
@@ -16,6 +19,20 @@ public struct Vertex    {
 	}
 	public static bool operator!=(Vertex a,Vertex b){
 		return a.target!=b.target;
+	}
+
+	public bool Island(){
+		return name [0] == 'I';
+	}
+
+	public bool CanRoll(){
+		//duplicated somewhere else
+		return name [0] == 'S';
+	}
+
+	public override string ToString ()
+	{
+		return name;
 	}
 	public override bool Equals(System.Object obj)
 	{

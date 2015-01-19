@@ -115,6 +115,27 @@ public class GameState
 					if (c == n_c) {
 						var coord = new Coord (i, h-j, 0);
 						coords.Add (coord);
+					} 
+
+					if (n == 1 && c == 'X') {
+						var coord = new Coord (i, h-j, 1);
+						coords.Add (coord);
+					}
+					if (n == 4 && c == 'R') {
+						var coord = new Coord (i, h-j, 0);
+						coords.Add (coord);
+					}
+					if (n == 5 && c == 'R') {
+						var coord = new Coord (i, h-j, 1);
+						coords.Add (coord);
+					}
+					if (n == 6 && c == 'T') {
+						var coord = new Coord (i, h-j, 0);
+						coords.Add (coord);
+					}
+					if (n == 7 && c == 'T') {
+						var coord = new Coord (i, h-j, 1);
+						coords.Add (coord);
 					}
 				}
 			}
@@ -146,27 +167,68 @@ public class GameState
 						result.entities.Add (e);
 						break;
 					}
+				case 'e':
+					{
+						//sausage sticking out forward with a platform under it 
+						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e1);
+						var e2 = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e2);
+						break;
+					}
+				case 'X':
+					{
+						//sausage sticking forward with bit of island 1 behind it
+						//sausage sticking out forward with a platform under it 
+						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e1);
+						break;
+					}
 				case '@':
 					{
+						//sausage sticking out forward with a platform 
 						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
 						result.entities.Add (e1);
 						var e2 = new Entity (EntityType.Player, Direction.East, new Coord (i-2, h-j, -1), null, true, false, null, false);
 						result.entities.Add (e2);
 						var e3 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
 						result.entities.Add (e3);
-						var e4 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
+						var e4 = new Entity (EntityType.Ground, Direction.None, new Coord (i-1, h-j-1, -1), null, false, false, null, false);
 						result.entities.Add (e4);
+						break;
+					}
+				case '€':
+					{//extend ground to be beneath sausage as well
+						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e1);
+						var e2 = new Entity (EntityType.Player, Direction.East, new Coord (i-2, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e2);
+						var e3 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e3);
+						var e4 = new Entity (EntityType.Ground, Direction.None, new Coord (i-1, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e4);
+						var e5 = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e5);
 						break;
 					}
 				case '#':
 					{
 						var e = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j, 0), null, false, false, null, false);
 						result.entities.Add (e);
+						var e2 = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j, 1), null, false, false, null, false);
+						result.entities.Add (e2);
 						break;
 					}
 				case 'P':
 					{
 						var e = new Entity (EntityType.Player, Direction.East, new Coord (i, h-j, 0), null, true, false, null, false);
+						result.entities.Add (e);
+						break;
+					}
+				case 'p':
+					{
+						//player in background
+						var e = new Entity (EntityType.Player, Direction.East, new Coord (i, h-j, 1), null, true, false, null, false);
 						result.entities.Add (e);
 						break;
 					}

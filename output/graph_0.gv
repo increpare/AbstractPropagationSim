@@ -1,8 +1,0 @@
-digraph G {
-	"Ground" -> "Player" [style=dotted];
-	"Player" -> "Sausage0";
-	"Sausage1" -> "Sausage0" [style=dotted];
-	"Sausage0" -> "Island" [style=dotted];
-	"Ground" -> "Sausage1" [style=dotted];
-	"Island" -> "Sausage1";
-}

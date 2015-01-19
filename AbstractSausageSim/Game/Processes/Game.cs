@@ -22,11 +22,19 @@ public class Game
 	public void ProcessInput(InputDirection inputDir){
 
 		Graph g = GraphAlgorithms.GenerateGraph(gamestate,Direction.East);
+		Renderer.Render (g.ToAbstract (), "abstract");
+		Renderer.Render (g.ToAbstract (g.ToTree()), "tree");
+		Renderer.Render (g.ToAbstract (g.ToAcyclic()), "acyclic");
 
-		Renderer.Render (g.ToString (), "graph_0");
-	
 		var traversal = new GraphTraversal (g);
-		traversal.Run ();
+		MetaGraph mg = GraphAlgorithms.GenerateMetaGraph (traversal);
+		Renderer.Render (mg.ToAbstractString(), "metagraph_simple");
+		Renderer.Render (mg.ToString(), "metagraph");
+
+		Renderer.Render (g.ToString (), "outline");
+	
+		//var traversal = new GraphTraversal (g);
+		//traversal.Run ();
 
 	}
 

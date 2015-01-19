@@ -4,6 +4,53 @@ using System.Linq;
 
 public static class GraphAlgorithms
 {
+	public static MetaGraph GenerateMetaGraph(GraphTraversal base_gt){
+		foreach (var v in base_gt.g.vertices) {
+			base_gt.movements [v.name] = new AbstractMovement (0, 0);
+		}
+		base_gt.movements["Player"]=new AbstractMovement(1,0);
+
+		MetaGraph result = new MetaGraph ();
+		result.vertices.Add (base_gt.ToShortString ());
+		result.subgraphstrings.Add (base_gt.ToSubGraphString ());
+
+		List<GraphTraversal> states = new List<GraphTraversal>();
+		List<string> statenames = new List<string>();
+		statenames.Add(base_gt.ToShortString());
+		states.Add (base_gt);
+
+		for (var i = 0; i < states.Count; i++) {
+			if (result.vertices.Count > 100) {
+				break;
+			}
+			var gt = states [i];
+			var oldName = statenames [i];
+			foreach (var v in gt.g.vertices) {
+				if (v.Immutable ()) {
+					continue;
+				}
+				GraphTraversal newGt = new GraphTraversal (gt);
+				newGt.ProcessVertex (v);
+				var newName = newGt.ToShortString ();
+				if (oldName == newName)
+					continue;
+
+				if (!result.vertices.Contains (newName)) {
+					result.vertices.Add (newName);
+					result.subgraphstrings.Add(newGt.ToSubGraphString ());
+				}
+				result.edges.AddUnique (new MetaGraph.MEdge (oldName+"_"+v.name, newName+"_"+v.name));
+
+				if (!statenames.Contains (newName)) {
+					states.Add (newGt);
+					statenames.Add (newName);
+				}
+			}
+
+		}
+		return result;
+	}
+
 	public static Graph GenerateGraph(GameState gamestate, Direction dir){
 		var graph = new Graph ();
 		var player = gamestate.Player();
