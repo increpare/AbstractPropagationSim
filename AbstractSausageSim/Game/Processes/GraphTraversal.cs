@@ -40,6 +40,11 @@ public class GraphTraversal
 		var newMovement = AbstractMovement.Combine (incomingMovements,v.CanRoll());
 		movements [v.name] = newMovement;
 	}
+	public AbstractMovement CalculateNewMovement(Vertex v){
+		var incomingMovements = GetIncomingMovements (v);
+		var newMovement = AbstractMovement.Combine (incomingMovements,v.CanRoll());
+		return newMovement;
+	}
 	public void Run(){
 		movements.Clear ();
 

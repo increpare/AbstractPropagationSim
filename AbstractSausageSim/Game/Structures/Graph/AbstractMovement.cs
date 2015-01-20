@@ -3,11 +3,64 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections.ObjectModel;
 
-public struct AbstractMovement {
+public struct AbstractMovement :IEquatable<AbstractMovement> {
 	public readonly int speed;
 	public readonly int torsion;
 	public readonly bool passive; //passive is only meaningful in CombineMovements
 	public readonly string[] causes;
+
+	public bool Equals(AbstractMovement other) 
+	{
+		if (speed != other.speed||torsion!=other.torsion||passive!=other.passive) {
+			return false;
+		}
+		if (causes.Length != other.causes.Length) {
+			return false;
+		}
+		for (var i = 0; i < causes.Length; i++) {
+			if (causes [i] != other.causes [i]) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static bool operator==(AbstractMovement a, AbstractMovement b){
+		return a.Equals(b);
+	}
+
+	public static bool operator!=(AbstractMovement a, AbstractMovement b){
+		return !a.Equals(b);
+	}
+
+	public static List<AbstractMovement> Translations() 
+	{
+		return new List<AbstractMovement> () {
+			new AbstractMovement(0,0),
+			new AbstractMovement(1,0),
+			new AbstractMovement(2,0),
+			new AbstractMovement(3,0),
+			new AbstractMovement(4,0),
+		};
+	}
+	public static List<AbstractMovement> Rotations() 
+	{
+		return new List<AbstractMovement> () {
+			new AbstractMovement(0,0),
+			new AbstractMovement(1,0),
+			new AbstractMovement(2,0),
+			new AbstractMovement(3,0),
+			new AbstractMovement(4,0),
+			new AbstractMovement(1,1),
+			new AbstractMovement(2,1),
+			new AbstractMovement(3,1),
+			new AbstractMovement(4,1),
+			new AbstractMovement(1,-1),
+			new AbstractMovement(2,-1),
+			new AbstractMovement(3,-1),
+			new AbstractMovement(4,-1)
+		};
+	}
 
 	public int surfaceSpeed {
 		get { return speed + torsion;}

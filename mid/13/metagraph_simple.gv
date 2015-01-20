@@ -1,9 +1,10 @@
 digraph G {
-Player1X1XGround0X1XSausage00X1XIsland0X1XSausage20X1XSausage10X1X		[ label="" shape=point peripheries=2 ];
-Player1X1XGround0X1XSausage01X2XIsland0X1XSausage20X1XSausage10X1X		[ label="" shape=point peripheries=2 ];
-Player1X1XGround0X1XSausage01X2XIsland0X1XSausage21X2XSausage10X1X		[ label="" shape=point peripheries=2 ];
-Player1X1XGround0X1XSausage01X2XIsland0X1XSausage21X2XSausage11X0X		[ label="" shape=point peripheries=2 ];
-	"Player1X1XGround0X1XSausage00X1XIsland0X1XSausage20X1XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XIsland0X1XSausage20X1XSausage10X1X";
-	"Player1X1XGround0X1XSausage01X2XIsland0X1XSausage20X1XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XIsland0X1XSausage21X2XSausage10X1X";
-	"Player1X1XGround0X1XSausage01X2XIsland0X1XSausage21X2XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XIsland0X1XSausage21X2XSausage11X0X";
+Player1X1XGround0X1XSausage00X1XSausage20X1XIsland0X1XSausage10X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage01X2XSausage20X1XIsland0X1XSausage10X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage01X2XSausage21X2XIsland0X1XSausage10X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage01X2XSausage21X2XIsland0X1XSausage11X0X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XSausage01X2XSausage21X2XIsland2X1XSausage12X2X		[ label="" shape=point peripheries=2 ];
+	"Player1X1XGround0X1XSausage00X1XSausage20X1XIsland0X1XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XSausage20X1XIsland0X1XSausage10X1X";
+	"Player1X1XGround0X1XSausage01X2XSausage20X1XIsland0X1XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XSausage21X2XIsland0X1XSausage10X1X";
+	"Player1X1XGround0X1XSausage01X2XSausage21X2XIsland0X1XSausage10X1X" -> "Player1X1XGround0X1XSausage01X2XSausage21X2XIsland0X1XSausage11X0X";
 }

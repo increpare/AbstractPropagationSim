@@ -27,7 +27,7 @@ public class Game
 		Renderer.Render (g.ToAbstract (g.ToAcyclic()), "acyclic");
 
 		var traversal = new GraphTraversal (g);
-		MetaGraph mg = GraphAlgorithms.GenerateMetaGraph (traversal);
+		MetaGraph mg = GraphAlgorithms.GenerateStableSolutions (traversal);
 		Renderer.Render (mg.ToAbstractString(), "metagraph_simple");
 		Renderer.Render (mg.ToString(), "metagraph");
 

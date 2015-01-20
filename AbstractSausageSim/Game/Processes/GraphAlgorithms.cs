@@ -4,6 +4,86 @@ using System.Linq;
 
 public static class GraphAlgorithms
 {
+	private static void PropagateAllCertainForces(GraphTraversal gt){
+		bool added = true;
+		while (added) {
+			added = false;
+			foreach (var v in gt.g.vertices) {
+				if (gt.movements.ContainsKey (v.name)) {
+					continue;
+				}
+				var incoming = gt.g.incoming (v);
+				var allfound = true;
+				foreach (var e in incoming) {
+					if (gt.movements.ContainsKey (e.from.name) == false) {
+						allfound = false;
+						break;
+					}
+				}
+				if (allfound) {
+					gt.movements [v.name] = gt.CalculateNewMovement (v);
+					added = true;
+				}
+			}
+		}
+	}
+
+	public static List<GraphTraversal> GeneratePossibilities(GraphTraversal base_gt){
+		var result = new  List<GraphTraversal> ();
+		result.Add (base_gt);
+		bool added = true;
+		while (added) {
+			added = false;
+			for (var i = 0; i < result.Count; i++) {
+				var gt = result [i];
+				foreach (var v in gt.g.vertices) {
+					if (gt.movements.ContainsKey (v.name) == false) {
+						var possibleMovements = v.CanRoll () ? AbstractMovement.Rotations () : AbstractMovement.Translations ();
+						gt.movements [v.name] = possibleMovements [0];
+						for (var j=1;j<possibleMovements.Count;j++){
+							var newGT = new GraphTraversal(gt);
+							newGT.movements[v.name]=possibleMovements[j];
+							result.Add(newGT);
+						}
+						added = true;
+					}
+				}
+			}
+		}
+		return result;
+	}
+
+	public static bool StableSolution(GraphTraversal gt) {
+		foreach (var v in gt.g.vertices) {
+			if (v.Immutable ()) {
+				continue;
+			}
+			var oldMovement = gt.movements [v.name];
+			var newMovement = gt.CalculateNewMovement (v);
+			if (oldMovement != newMovement) {
+				return false;
+			}
+		}
+		return true;
+	}
+	public static MetaGraph GenerateStableSolutions(GraphTraversal base_gt){
+		base_gt.movements.Clear ();
+		base_gt.movements ["Player"] = new AbstractMovement (1, 0);
+		base_gt.movements ["Ground"] = new AbstractMovement (0, 0);
+		PropagateAllCertainForces (base_gt);
+		var possibilities = GeneratePossibilities (base_gt);
+		possibilities = possibilities.Where (gt => StableSolution (gt)).ToList();
+		var result = GenerateMetaGraph (base_gt);
+		foreach (var p in possibilities) {
+			var shortstring = p.ToShortString ();
+			if (result.vertices.Contains (shortstring) == false) {
+				result.vertices.Add (shortstring);
+				result.subgraphstrings.Add (p.ToSubGraphString ());
+			}
+		}
+		return result;
+	}
+
 	public static MetaGraph GenerateMetaGraph(GraphTraversal base_gt){
 		foreach (var v in base_gt.g.vertices) {
 			base_gt.movements [v.name] = new AbstractMovement (0, 0);

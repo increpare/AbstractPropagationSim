@@ -2,17 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/Program.cs">
     <Files>
-      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="23" Column="23" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/AbstractMovement.cs" Line="40" Column="40" />
-      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="37" Column="37" />
-      <File FileName="AbstractSausageSim/Game/Structures/GameState.cs" Line="18" Column="18" />
-      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="6" Column="6" />
+      <File FileName="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="36" Column="36" />
+      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Structures/Graph/AbstractMovement.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="13" Column="13" />
       <File FileName="AbstractSausageSim/Program.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/Graph.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Misc/Renderer.cs" Line="2" Column="2" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/Edge.cs" Line="22" Column="22" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/Vertex.cs" Line="22" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -23,5 +18,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../TreeTraverse/TreeTraverse/Abstract/GameGraph.cs" line="99" offsetX="258" offsetY="1372" expression="v" liveUpdate="False" />
     <Watch file="AbstractSausageSim/Game/Processes/Scenario.cs" line="7" offsetX="416" offsetY="90" expression="g.gamestate" liveUpdate="False" />
+    <Watch file="AbstractSausageSim/Game/Structures/Graph/Graph.cs" line="104" offsetX="546" offsetY="1545" expression="connections" liveUpdate="False" />
+    <Watch file="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" line="70" offsetX="379" offsetY="1035" expression="base_gt" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
