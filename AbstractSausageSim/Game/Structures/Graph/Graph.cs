@@ -154,7 +154,7 @@ public class Graph
 	public string ToAbstract(){
 		string result = "digraph G {\n";
 		result += "rankdir = BT;\n";
-		result += "Node [ fontname=\"Arial Unicode Multicast\"];\n";
+		result += "Node [ fontname=\"Apple Symbols\"];\n";
 		//&#8635;
 		//&#8634;
 //		result += "overlap = orthoxy;";
@@ -192,7 +192,7 @@ public class Graph
 	public string ToAbstract(Graph tree){
 		string result = "digraph G {\n";
 		result += "rankdir = BT;\n";
-		result += "Node [ fontname=\"Arial Unicode Multicast\"];\n";
+		result += "Node [ fontname=\"Apple Symbols\"];\n";
 		//&#8635;
 		//&#8634;
 		//		result += "overlap = orthoxy;";

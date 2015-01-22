@@ -1,0 +1,23 @@
+digraph G {
+rankdir = BT;
+Node [ fontname="Apple Symbols"];
+Player		[ label="1" shape=square peripheries=2];
+Ground		[ label="0" shape=square peripheries=2];
+Sausage		[ label="" shape=circle];
+Island0		[ label="" shape=square];
+Island1		[ label="" shape=square];
+Island2		[ label="" shape=square];
+{rank=same; Player,Sausage};
+	"Ground" -> "Player" [style=dotted ];
+	"Player" -> "Sausage" [constraint=false];
+	"Island0" -> "Sausage" [style=dotted ];
+	"Sausage" -> "Island0" [style=dotted ];
+	"Island1" -> "Island0" [style=dotted ];
+	"Island0" -> "Island1" [style=dotted ];
+	"Island0" -> "Sausage" [constraint=false];
+	"Island2" -> "Island1" [style=dotted ];
+	"Island1" -> "Island2" [style=dotted ];
+	"Island1" -> "Island0" [constraint=false];
+	"Island2" -> "Island1" [constraint=false];
+	"Island2" -> "Island0" [constraint=false];
+}

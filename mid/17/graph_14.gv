@@ -1,0 +1,31 @@
+digraph G {
+node [shape=record];
+Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
+Ground[ label ="{{Ground}|<GroundOUT>0}"];
+Sausage1[ label ="{{<Player>1|<GroundP>0}|{Sausage1}|<Sausage1OUT>1&#8635;|{Player}}"];
+Island0[ label ="{{<Sausage1P>1&#8635;|<Sausage3P>1&#8635;}|{Island0}|<Island0OUT>2|{Player|Sausage1|Sausage3}}"];
+Island1[ label ="{{<Sausage1P>1&#8635;|<Sausage3P>1&#8635;}|{Island1}|<Island1OUT>2|{Player|Sausage1|Sausage3}}"];
+Sausage3[ label ="{{<Sausage1>1|<GroundP>0}|{Sausage3}|<Sausage3OUT>1&#8635;|{Player|Sausage1}}"];
+Sausage0[ label ="{{<Island0P>2|<Island1P>2}|{Sausage0}|<Sausage0OUT>2|{Player|Sausage1|Sausage3|Island0|Island1}}"];
+Sausage2[ label ="{{<Island0P>2|<Island1P>2|<Sausage0>2}|{Sausage2}|<Sausage2OUT>2|{Player|Sausage1|Sausage3|Island0|Island1}}"];
+Island2[ label ="{{<Sausage0P>2|<Sausage2P>2}|{Island2}|<Island2OUT>2|{Player|Sausage1|Sausage3|Island0|Island1|Sausage0|Sausage2}}"];
+Island3[ label ="{{<Sausage0P>2|<Sausage2P>2}|{Island3}|<Island3OUT>2|{Player|Sausage1|Sausage3|Island0|Island1|Sausage0|Sausage2}}"];
+	"Ground" -> "Player":GroundP [style=dotted];
+	"Player" -> "Sausage1":Player;
+	"Ground" -> "Sausage1":GroundP [style=dotted];
+	"Sausage1" -> "Island0":Sausage1P [style=dotted];
+	"Sausage1" -> "Island1":Sausage1P [style=dotted];
+	"Sausage1" -> "Sausage3":Sausage1;
+	"Sausage3" -> "Island0":Sausage3P [style=dotted];
+	"Island0" -> "Sausage0":Island0P [style=dotted];
+	"Island0" -> "Sausage2":Island0P [style=dotted];
+	"Sausage3" -> "Island1":Sausage3P [style=dotted];
+	"Island1" -> "Sausage0":Island1P [style=dotted];
+	"Island1" -> "Sausage2":Island1P [style=dotted];
+	"Ground" -> "Sausage3":GroundP [style=dotted];
+	"Sausage0" -> "Island2":Sausage0P [style=dotted];
+	"Sausage0" -> "Island3":Sausage0P [style=dotted];
+	"Sausage0" -> "Sausage2":Sausage0;
+	"Sausage2" -> "Island2":Sausage2P [style=dotted];
+	"Sausage2" -> "Island3":Sausage2P [style=dotted];
+}

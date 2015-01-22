@@ -121,6 +121,12 @@ public class GameState
 						var coord = new Coord (i, h-j, 1);
 						coords.Add (coord);
 					}
+					if (n == 1 && c == '!') {
+						var coord = new Coord (i, h-j, 0);
+						coords.Add (coord);
+						var coord2 = new Coord (i, h-j, -1);
+						coords.Add (coord2);
+					}
 					if (n == 4 && c == 'R') {
 						var coord = new Coord (i, h-j, 0);
 						coords.Add (coord);
@@ -182,6 +188,20 @@ public class GameState
 						//sausage sticking out forward with a platform under it 
 						var e1 = new Entity (EntityType.Sausage, Direction.North, new Coord (i, h-j, -1), null, true, false, null, false);
 						result.entities.Add (e1);
+						break;
+					}
+				case '!':
+					{
+						//island 1 piece being pushed by player,both on ground
+						var e1 = new Entity (EntityType.Player, Direction.East, new Coord (i-2, h-j, -1), null, true, false, null, false);
+						result.entities.Add (e1);
+						var e2 = new Entity (EntityType.Ground, Direction.None, new Coord (i-2, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e2);
+						var e3 = new Entity (EntityType.Ground, Direction.None, new Coord (i-1, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e3);
+						var e4 = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j-1, -1), null, false, false, null, false);
+						result.entities.Add (e4);
+
 						break;
 					}
 				case '@':

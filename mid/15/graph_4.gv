@@ -2,9 +2,9 @@ digraph G {
 node [shape=record];
 Player[ label ="{{<GroundP>0}|{Player}|<PlayerOUT>1|{Player}}"];
 Ground[ label ="{{Ground}|<GroundOUT>0}"];
-Sausage1[ label ="{{<Player>1|<GroundP>0}|{Sausage1}|<Sausage1OUT>1 CW|{Player}}"];
-Sausage0[ label ="{{<Sausage1P>1 CW|<Island>0}|{Sausage0}|<Sausage0OUT>1 CCW|{Player|Sausage1}}"];
-Island[ label ="{{<Sausage1P>1 CW}|{Island}|<IslandOUT>0}"];
+Sausage1[ label ="{{<Player>1|<GroundP>0}|{Sausage1}|<Sausage1OUT>1&#8635;|{Player}}"];
+Sausage0[ label ="{{<Sausage1P>1&#8635;|<Island>2}|{Sausage0}|<Sausage0OUT>2&#8635;|{Player|Sausage1|Island}}"];
+Island[ label ="{{<Sausage1P>1&#8635;}|{Island}|<IslandOUT>2|{Player|Sausage1}}"];
 	"Ground" -> "Player":GroundP [style=dotted];
 	"Player" -> "Sausage1":Player;
 	"Ground" -> "Sausage1":GroundP [style=dotted];

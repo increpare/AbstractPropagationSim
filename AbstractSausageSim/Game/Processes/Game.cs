@@ -33,8 +33,7 @@ public class Game
 
 		Renderer.Render (g.ToString (), "outline");
 	
-		//var traversal = new GraphTraversal (g);
-		//traversal.Run ();
+		traversal.Run ();
 
 	}
 

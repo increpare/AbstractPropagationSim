@@ -1,0 +1,15 @@
+digraph G {
+rankdir = BT;
+	"Ground" -> "Player" [style=dotted];
+	"Player" -> "Sausage";
+	"Island0" -> "Sausage" [style=dotted];
+	"Sausage" -> "Island0" [style=dotted];
+	"Island1" -> "Island0" [style=dotted];
+	"Island0" -> "Island1" [style=dotted];
+	"Island0" -> "Sausage";
+	"Island2" -> "Island1" [style=dotted];
+	"Island1" -> "Island2" [style=dotted];
+	"Island1" -> "Island0";
+	"Island2" -> "Island1";
+	"Island2" -> "Island0";
+}
