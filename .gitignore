@@ -24,7 +24,10 @@ AbstractSausageSim/obj/x86/Debug/AbstractSausageSim.exe
 
 AbstractSausageSim/obj/x86/Debug/AbstractSausageSim.exe.mdb
 
+mid
 output
 *.gv
 
 *.gv
+
+*.pdf
