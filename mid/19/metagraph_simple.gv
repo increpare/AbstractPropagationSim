@@ -1,7 +1,10 @@
 digraph G {
-Player1X1XGround0X1XIsland00X1XIsland10X1X		[ label="" shape=point peripheries=2 ];
-Player1X1XGround0X1XIsland01X1XIsland10X1X		[ label="" shape=point peripheries=2 ];
-Player1X1XGround0X1XIsland01X1XIsland11X1X		[ label="" shape=point peripheries=2 ];
-	"Player1X1XGround0X1XIsland00X1XIsland10X1X" -> "Player1X1XGround0X1XIsland01X1XIsland10X1X";
-	"Player1X1XGround0X1XIsland01X1XIsland10X1X" -> "Player1X1XGround0X1XIsland01X1XIsland11X1X";
+Player1X1XGround0X1XIsland00X1XIsland10X1XIsland20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XIsland01X1XIsland10X1XIsland20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XIsland01X1XIsland11X1XIsland20X1X		[ label="" shape=point peripheries=2 ];
+Player1X1XGround0X1XIsland01X1XIsland11X1XIsland21X1X		[ label="" shape=point peripheries=2 ];
+	"Player1X1XGround0X1XIsland00X1XIsland10X1XIsland20X1X" -> "Player1X1XGround0X1XIsland01X1XIsland10X1XIsland20X1X"[ color="red:blue" ];
+	"Player1X1XGround0X1XIsland01X1XIsland10X1XIsland20X1X" -> "Player1X1XGround0X1XIsland01X1XIsland11X1XIsland20X1X"[ color=blue ];
+	"Player1X1XGround0X1XIsland01X1XIsland11X1XIsland20X1X" -> "Player1X1XGround0X1XIsland01X1XIsland10X1XIsland20X1X"[ color=red ];
+	"Player1X1XGround0X1XIsland01X1XIsland11X1XIsland20X1X" -> "Player1X1XGround0X1XIsland01X1XIsland11X1XIsland21X1X"[ color="red:blue" ];
 }

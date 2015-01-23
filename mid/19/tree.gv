@@ -5,9 +5,12 @@ Player		[ label="1" shape=square peripheries=2];
 Ground		[ label="0" shape=square peripheries=2];
 Island0		[ label="" shape=square];
 Island1		[ label="" shape=square];
+Island2		[ label="" shape=square];
 	"Ground" -> "Player" [style=dotted color="gray"];
 	"Player" -> "Island0" [constraint=false  penwidth=2];
 	"Island1" -> "Island0" [style=dotted color="gray"];
 	"Ground" -> "Island0" [style=dotted color="gray"];
 	"Island0" -> "Island1" [style=dotted  penwidth=2];
+	"Island2" -> "Island1" [style=dotted color="gray"];
+	"Island1" -> "Island2" [style=dotted  penwidth=2];
 }

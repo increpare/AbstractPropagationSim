@@ -252,6 +252,17 @@ public class GameState
 						result.entities.Add (e);
 						break;
 					}
+				case 'Q':
+					{
+						//player and ground behind player
+						var e = new Entity (EntityType.Player, Direction.East, new Coord (i, h-j, 0), null, true, false, null, false);
+						result.entities.Add (e);
+						var e2 = new Entity (EntityType.Ground, Direction.None, new Coord (i, h-j, 1), null, false, false, null, false);
+						result.entities.Add (e2);
+						var e3 = new Entity (EntityType.Ground, Direction.None, new Coord (i+1, h-j, 1), null, false, false, null, false);
+						result.entities.Add (e3);
+						break;
+					}
 				}
 			}
 		}

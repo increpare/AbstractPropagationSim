@@ -33,6 +33,43 @@ public struct AbstractMovement :IEquatable<AbstractMovement> {
 		return !a.Equals(b);
 	}
 
+	public override int GetHashCode ()
+	{
+		int hash = 17;
+
+		hash = hash * 23 + speed.GetHashCode();
+		hash = hash * 23 + torsion.GetHashCode();
+		hash = hash * 23 + passive.GetHashCode();
+		hash = hash * 23 + causes.GetHashCode();
+		return hash;	
+	}
+
+
+	public override bool Equals(Object other2) 
+	{
+		if (other2 == null) {
+			return false;
+		}
+		if (!(other2 is AbstractMovement)) {
+			return false;
+		}
+
+		var other = (AbstractMovement)other2;
+
+		if (speed != other.speed||torsion!=other.torsion||passive!=other.passive) {
+			return false;
+		}
+		if (causes.Length != other.causes.Length) {
+			return false;
+		}
+		for (var i = 0; i < causes.Length; i++) {
+			if (causes [i] != other.causes [i]) {
+				return false;
+			}
+		}
+		return true;
+	}
+
 	public static List<AbstractMovement> Translations() 
 	{
 		return new List<AbstractMovement> () {
@@ -156,6 +193,36 @@ public struct AbstractMovement :IEquatable<AbstractMovement> {
 		} else {
 			return 0;
 		}
+	}
+
+	//move at maximum of contributing passive forces
+	public static AbstractMovement EasyCombine(List<AbstractMovement> movements, bool canRoll){
+		var passiveMovements = movements.Where (m => m.passive).ToList ();
+		var activeMovements = movements.Where (m => !m.passive).ToList ();	
+
+		if (passiveMovements.Count () == 0) {
+			passiveMovements.Add(new AbstractMovement(0,0,true));
+		}
+		if (activeMovements.Count () == 0) {
+			activeMovements.Add(new AbstractMovement(0,0,false));
+		}
+
+		int maxActiveSpeed =  activeMovements.Any()?activeMovements.Max (af => af.speed):0;
+
+		string[] newCauses = movements.SelectMany (m => m.causes).Distinct ().ToArray ();
+
+		if (canRoll) {
+			var minPassiveSpeed = passiveMovements.Max (m => m.speed);
+			var delta = Delta (passiveMovements);
+			if (minPassiveSpeed >= maxActiveSpeed) {
+				return new AbstractMovement (minPassiveSpeed, -delta, false, newCauses);
+			} else {
+				return new AbstractMovement (maxActiveSpeed, maxActiveSpeed>0?1:0, false, newCauses);
+			}
+		} else {
+			var minPassiveSurfaceSpeed = passiveMovements.Max (pm => pm.surfaceSpeed);
+			return new AbstractMovement (Math.Max(maxActiveSpeed,minPassiveSurfaceSpeed),0, false, newCauses);
+		}					
 	}
 
 	//must pass movements that've had their passive flag considered (Active/Passive called)

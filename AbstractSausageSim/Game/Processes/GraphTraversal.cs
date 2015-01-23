@@ -34,6 +34,13 @@ public class GraphTraversal
 		return result;
 	}
 
+	public void ProcessVertexEasy(Vertex v){
+		var incomingMovements = GetIncomingMovements (v);
+		var oldMovement = movements [v.name];
+		var newMovement = AbstractMovement.EasyCombine (incomingMovements,v.CanRoll());
+		movements [v.name] = newMovement;
+	}
+
 	public void ProcessVertex(Vertex v){
 		var incomingMovements = GetIncomingMovements (v);
 		var oldMovement = movements [v.name];
@@ -203,7 +210,6 @@ public class GraphTraversal
 		//result = result+"Ground [style=invis label=\"\" width=\"0\" height=\"0\"]\n";
 		//note has the structure
 		// input, label, output
-		Func<Edge,string> labelName = (Edge e) => (e.from.name + (e.passive ? "P" : ""));
 		foreach (var v in g.vertices) {
 			result += prefix+"_"+v.name + "[ label =\"";
 			if (movements.ContainsKey (v.name)) {

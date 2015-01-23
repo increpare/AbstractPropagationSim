@@ -3,10 +3,13 @@ node [shape=record];
 Player[ label ="{{<GroundP>}|{Player}|<PlayerOUT>}"];
 Ground[ label ="{{Ground}|<GroundOUT>}"];
 Island0[ label ="{{<Player>|<Island1P>|<GroundP>}|{Island0}|<Island0OUT>}"];
-Island1[ label ="{{<Island0P>}|{Island1}|<Island1OUT>}"];
+Island1[ label ="{{<Island0P>|<Island2P>}|{Island1}|<Island1OUT>}"];
+Island2[ label ="{{<Island1P>}|{Island2}|<Island2OUT>}"];
 	"Ground" -> "Player":GroundP [style=dotted];
 	"Player" -> "Island0":Player;
 	"Island1" -> "Island0":Island1P [style=dotted];
 	"Ground" -> "Island0":GroundP [style=dotted];
 	"Island0" -> "Island1":Island0P [style=dotted];
+	"Island2" -> "Island1":Island2P [style=dotted];
+	"Island1" -> "Island2":Island1P [style=dotted];
 }

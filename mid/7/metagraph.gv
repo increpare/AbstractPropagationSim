@@ -56,7 +56,26 @@ Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Island[ label ="2"  shape
 	"Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage0" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Island" [style=dotted];
 	"Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Island" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage1" [style=dotted];
 }
+subgraph cluster_Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X {
+Node [ fontname="Apple Symbols"];
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Player[ label ="1"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Ground[ label ="0"  shape=square peripheries=2 ];
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0[ label ="2"  shape=circle ];
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage1[ label ="2"  shape=circle ];
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Island[ label ="2"  shape=square ];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Player" [style=dotted];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Player" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0";
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Ground" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0" [style=dotted];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage1" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0" [style=dotted];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Island" [style=dotted];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Island" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage1" [style=dotted];
+}
+	"Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X_Sausage0" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Sausage0" [ ltail = Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X_Sausage0 rtail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Sausage0 color=blue ];
 	"Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X_Sausage0" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Sausage0" [ ltail = Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X_Sausage0 rtail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Sausage0 color=red ];
+	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Island" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Island" [ ltail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Island rtail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Island color=blue ];
 	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Island" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Island" [ ltail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X_Island rtail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Island color=red ];
+	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Sausage1" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage1" [ ltail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Sausage1 rtail = Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage1 color=blue ];
 	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Sausage1" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage1" [ ltail = Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X_Sausage1 rtail = Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage1 color=red ];
+	"Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage0" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0" [ ltail = Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage0 rtail = Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0 color=blue ];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage0" [ ltail = Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X_Sausage0 rtail = Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X_Sausage0 color=red ];
 }

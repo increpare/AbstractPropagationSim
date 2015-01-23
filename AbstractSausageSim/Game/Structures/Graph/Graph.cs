@@ -33,16 +33,18 @@ public class Graph
 		edges.Remove (e);
 	}
 
-	public Edge AddEdge(Edge e){
-		return AddEdge (e.from.target, e.from.name, e.to.target, e.to.name, e.passive);
+	public void AddEdge(Edge e){
+		AddEdge (e.from.target, e.from.name, e.to.target, e.to.name, e.passive);
 	}
 
-	public Edge AddEdge(Entity a, string nameA, Entity b, string nameB, bool passive){
+	public  void AddEdge(Entity a, string nameA, Entity b, string nameB, bool passive){
+		if (nameA == nameB) {
+			return;
+		}
 		var va = AddVertex (a,nameA);
 		var vb = AddVertex (b,nameB);
 		var e = new Edge (va,vb,passive);
 		edges.AddUnique (e);
-		return e;
 	}
 
 	public Vertex GetVertex(Entity e){

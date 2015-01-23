@@ -109,21 +109,40 @@ public static class GraphAlgorithms
 				if (v.Immutable ()) {
 					continue;
 				}
-				GraphTraversal newGt = new GraphTraversal (gt);
-				newGt.ProcessVertex (v);
-				var newName = newGt.ToShortString ();
-				if (oldName == newName)
-					continue;
+				{//do easy run first
+					GraphTraversal newGt = new GraphTraversal (gt);
+					newGt.ProcessVertexEasy (v);
+					var newName = newGt.ToShortString ();
+					if (oldName != newName) {
+						if (!result.vertices.Contains (newName)) {
+							result.vertices.Add (newName);
+							result.subgraphstrings.Add (newGt.ToSubGraphString ());
+						}
+						result.edges.AddUnique (new MetaGraph.MEdge (oldName + "_" + v.name, newName + "_" + v.name, easy: true));
 
-				if (!result.vertices.Contains (newName)) {
-					result.vertices.Add (newName);
-					result.subgraphstrings.Add(newGt.ToSubGraphString ());
+						if (!statenames.Contains (newName)) {
+							states.Add (newGt);
+							statenames.Add (newName);
+						}
+					}
 				}
-				result.edges.AddUnique (new MetaGraph.MEdge (oldName+"_"+v.name, newName+"_"+v.name));
+				{
+					//then do regular run
+					GraphTraversal newGt = new GraphTraversal (gt);
+					newGt.ProcessVertex (v);
+					var newName = newGt.ToShortString ();
+					if (oldName != newName) {
+						if (!result.vertices.Contains (newName)) {
+							result.vertices.Add (newName);
+							result.subgraphstrings.Add (newGt.ToSubGraphString ());
+						}
+						result.edges.AddUnique (new MetaGraph.MEdge (oldName + "_" + v.name, newName + "_" + v.name, easy: false));
 
-				if (!statenames.Contains (newName)) {
-					states.Add (newGt);
-					statenames.Add (newName);
+						if (!statenames.Contains (newName)) {
+							states.Add (newGt);
+							statenames.Add (newName);
+						}
+					}
 				}
 			}
 

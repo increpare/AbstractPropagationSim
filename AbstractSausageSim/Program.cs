@@ -6,7 +6,7 @@ class MainClass
 {
 	public static void Main (string[] args)
 	{
-		Renderer.index = 20;
+		Renderer.index = 22;
 		Scenario.Run (Levels.levels [Renderer.index],"");
 //		foreach (var levelDat in Levels.levels) {
 //			Renderer.index = Levels.levels.ToList ().IndexOf (levelDat);

@@ -1,13 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupItem="AbstractSausageSim/AbstractSausageSim.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/AbstractSausageSim.csproj">
     <Files>
       <File FileName="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="36" Column="36" />
+      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="1" Column="1" />
       <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="1" Column="1" />
       <File FileName="AbstractSausageSim/Game/Structures/Graph/AbstractMovement.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="13" Column="13" />
+      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="1" Column="1" />
       <File FileName="AbstractSausageSim/Program.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Structures/Graph/MetaGraph.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Misc/Fraction.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/Game/Structures/Coord.cs" Line="1" Column="1" />
+      <File FileName="AbstractSausageSim/AbstractSausageSim.csproj" Line="35" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

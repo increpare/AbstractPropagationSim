@@ -7,14 +7,16 @@ public class MetaGraph
 	public struct MEdge :IEquatable<MEdge> {
 		public readonly string from;
 		public readonly string to;
-		public MEdge(string x, string y){
+		public readonly bool easy;
+		public MEdge(string x, string y, bool easy){
 			this.from=x;
 			this.to=y;
+			this.easy=easy;
 		}
 
 		public bool Equals(MEdge other) 
 		{
-			return (this.from == other.from&&this.to==other.to);
+			return (this.from == other.from && this.to==other.to && this.easy==other.easy);
 		}
 	}
 
@@ -60,7 +62,23 @@ public class MetaGraph
 		foreach (var e in edges) {
 			var from = e.from.Split ('_') [0];
 			var to = e.to.Split ('_') [0];
-			result = result + "\t\"" + from + "\" -> \"" + to + "\";\n";
+
+			if (e.easy == false) {
+				result = result + "\t\"" + from + "\" -> \"" + to + "\"";
+				if (edges.Any (e2 => e2.from == e.from && e2.to == e.to && e2.easy == true)) {
+					result += "[ color=\"red:blue\" ]";
+				} else {
+					result += "[ color=red ]";
+				}
+				result += ";\n";
+			} else {
+				//make sure there's no not easy
+				if (!edges.Any (e2 => e2.from == e.from && e2.to == e.to && e2.easy == false)) {
+					result = result + "\t\"" + from + "\" -> \"" + to + "\"";
+					result += "[ color=blue ]";
+					result += ";\n";
+				}
+			}
 		}
 		result = result + "}";
 		return result;
@@ -73,8 +91,13 @@ public class MetaGraph
 			result += s;
 		}
 		foreach (var e in edges) {
-			result = result + "\t\"" + e.from+ "\" -> \"" + e.to + "\" [ ltail = " 
-				+ e.from+ " rtail = "+e.to+ " color=red ];\n";
+			if (e.easy) {
+				result = result + "\t\"" + e.from + "\" -> \"" + e.to + "\" [ ltail = "
+				+ e.from + " rtail = " + e.to + " color=blue ];\n";
+			} else {
+				result = result + "\t\"" + e.from + "\" -> \"" + e.to + "\" [ ltail = "
+				+ e.from + " rtail = " + e.to + " color=red ];\n";
+			}
 		}
 		result = result + "}";
 		return result;

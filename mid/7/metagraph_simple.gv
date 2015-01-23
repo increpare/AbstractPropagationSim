@@ -3,7 +3,10 @@ Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X		[ label="" shape=point p
 Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X		[ label="" shape=point peripheries=2 ];
 Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X		[ label="" shape=point peripheries=2 ];
 Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X		[ label="" shape=point peripheries=2 ];
-	"Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X";
-	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X";
-	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X";
+Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X		[ label="" shape=point peripheries=2 ];
+	"Player1X1XGround0X1XSausage00X1XSausage10X1XIsland0X1X" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X"[ color="red:blue" ];
+	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland0X1X" -> "Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X"[ color="red:blue" ];
+	"Player1X1XGround0X1XSausage01X2XSausage10X1XIsland2X1X" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X"[ color="red:blue" ];
+	"Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X" -> "Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X"[ color=blue ];
+	"Player1X1XGround0X1XSausage02X1XSausage12X1XIsland2X1X" -> "Player1X1XGround0X1XSausage01X2XSausage12X1XIsland2X1X"[ color=red ];
 }
