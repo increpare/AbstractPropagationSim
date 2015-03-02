@@ -30,6 +30,10 @@ public static class GraphAlgorithms
 
 	public static List<GraphTraversal> GeneratePossibilities(GraphTraversal base_gt){
 		var result = new  List<GraphTraversal> ();
+		if (base_gt.g.vertices.Count () - base_gt.movements.Count () >= 5) {
+			Console.WriteLine ("too many possible movements");
+			return result;
+		}
 		result.Add (base_gt);
 		bool added = true;
 		while (added) {

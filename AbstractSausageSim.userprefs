@@ -1,29 +1,14 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupItem="AbstractSausageSim/AbstractSausageSim.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AbstractSausageSim/AbstractSausageSim.csproj">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../sausage copy/Assets/Scripts/Components/Game.cs">
     <Files>
-      <File FileName="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/GraphTraversal.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/Game.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/AbstractMovement.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/Scenario.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Program.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Processes/Levels.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/Graph/MetaGraph.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Misc/Fraction.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/Game/Structures/Coord.cs" Line="1" Column="1" />
-      <File FileName="AbstractSausageSim/AbstractSausageSim.csproj" Line="35" Column="35" />
+      <File FileName="../sausage copy/Assets/Scripts/Components/MapEditor.cs" Line="30" Column="14" />
+      <File FileName="../sausage copy/Assets/Scripts/Components/LoaderSaver.cs" Line="917" Column="50" />
+      <File FileName="../sausage copy/Assets/Scripts/Components/Game.cs" Line="3926" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/stephenlavelle/Documents/AbstractSausageSim/AbstractSausageSim/Game/Structures/Graph/Edge.cs" line="30" column="46" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../TreeTraverse/TreeTraverse/Abstract/GameGraph.cs" line="99" offsetX="258" offsetY="1372" expression="v" liveUpdate="False" />
-    <Watch file="AbstractSausageSim/Game/Processes/Scenario.cs" line="7" offsetX="416" offsetY="90" expression="g.gamestate" liveUpdate="False" />
-    <Watch file="AbstractSausageSim/Game/Structures/Graph/Graph.cs" line="104" offsetX="546" offsetY="1545" expression="connections" liveUpdate="False" />
-    <Watch file="AbstractSausageSim/Game/Processes/GraphAlgorithms.cs" line="70" offsetX="379" offsetY="1035" expression="base_gt" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

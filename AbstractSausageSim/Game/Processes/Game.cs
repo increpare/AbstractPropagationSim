@@ -23,17 +23,17 @@ public class Game
 
 		Graph g = GraphAlgorithms.GenerateGraph(gamestate,Direction.East);
 		Renderer.Render (g.ToAbstract (), "abstract");
-		Renderer.Render (g.ToAbstract (g.ToTree()), "tree");
-		Renderer.Render (g.ToAbstract (g.ToAcyclic()), "acyclic");
+		//Renderer.Render (g.ToAbstract (g.ToTree()), "tree");
+		//Renderer.Render (g.ToAbstract (g.ToAcyclic()), "acyclic");
 
 		var traversal = new GraphTraversal (g);
 		MetaGraph mg = GraphAlgorithms.GenerateStableSolutions (traversal);
 		Renderer.Render (mg.ToAbstractString(), "metagraph_simple");
 		Renderer.Render (mg.ToString(), "metagraph");
 
-		Renderer.Render (g.ToString (), "outline");
+		//Renderer.Render (g.ToString (), "outline");
 	
-		traversal.Run ();
+		//traversal.Run ();
 
 	}
 
